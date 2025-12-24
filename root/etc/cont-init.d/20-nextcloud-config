@@ -1,0 +1,137 @@
+#!/bin/sh
+# Initialize Nextcloud config
+
+PUID=${PUID:-1000}
+PGID=${PGID:-1000}
+
+# Update www user/group IDs if different from default (80)
+if [ "$PUID" != "80" ] || [ "$PGID" != "80" ]; then
+    echo "Setting www UID:GID to $PUID:$PGID"
+    pw groupmod www -g "$PGID" 2>/dev/null || true
+fi
+
+# Nextcloud install location
+NEXTCLOUD_DIR=/usr/local/www/nextcloud
+
+# Ensure directories exist
+mkdir -p /config/www /data /var/log/nextcloud /var/run/php-fpm
+
+# Symlink config directory to /config/www for persistence
+if [ -d "$NEXTCLOUD_DIR/config" ] && [ ! -L "$NEXTCLOUD_DIR/config" ]; then
+    # First run - move stock config dir contents to /config/www
+    cp -a "$NEXTCLOUD_DIR/config/"* /config/www/ 2>/dev/null || true
+    rm -rf "$NEXTCLOUD_DIR/config"
+    ln -sf /config/www "$NEXTCLOUD_DIR/config"
+    echo "Linked $NEXTCLOUD_DIR/config -> /config/www"
+elif [ ! -e "$NEXTCLOUD_DIR/config" ]; then
+    ln -sf /config/www "$NEXTCLOUD_DIR/config"
+    echo "Linked $NEXTCLOUD_DIR/config -> /config/www"
+fi
+
+# Ensure datadirectory is set to /data in config.php
+# FreeBSD pkg ships with a config.php but no datadirectory setting
+if [ -f /config/www/config.php ]; then
+    if ! grep -q "'datadirectory'" /config/www/config.php; then
+        # Add datadirectory before the closing );
+        sed -i '' "s/);/  'datadirectory' => '\/data',\n);/" /config/www/config.php
+        echo "Added datadirectory=/data to config.php"
+    fi
+    # Add default_phone_region if not set (use US as default, can be changed)
+    if ! grep -q "'default_phone_region'" /config/www/config.php; then
+        sed -i '' "s/);/  'default_phone_region' => 'US',\n);/" /config/www/config.php
+        echo "Added default_phone_region=US to config.php"
+    fi
+    # Add maintenance_window_start (4 AM UTC)
+    if ! grep -q "'maintenance_window_start'" /config/www/config.php; then
+        sed -i '' "s/);/  'maintenance_window_start' => 4,\n);/" /config/www/config.php
+        echo "Added maintenance_window_start=4 to config.php"
+    fi
+else
+    # Create minimal config.php for fresh install
+    cat > /config/www/config.php << 'EOFCONFIG'
+<?php
+$CONFIG = array (
+  'datadirectory' => '/data',
+  'default_phone_region' => 'US',
+  'maintenance_window_start' => 4,
+);
+EOFCONFIG
+    echo "Created initial config.php with datadirectory=/data"
+fi
+
+# Set ownership
+chown -R bsd:bsd /config /data /var/log/nextcloud /var/run/php-fpm
+chown -h www:www "$NEXTCLOUD_DIR/config" 2>/dev/null || true
+# Ensure apps directory is writable (pkg installs as root, but we need www to own it)
+chown -R bsd:bsd "$NEXTCLOUD_DIR/apps" 2>/dev/null || true
+
+# Configure PHP-FPM to use Unix socket (overwrite pkg default which uses TCP)
+PHP_FPM_CONF=/usr/local/etc/php-fpm.d/www.conf
+mkdir -p /usr/local/etc/php-fpm.d
+cat > "$PHP_FPM_CONF" << 'EOFPHP'
+[www]
+user = www
+group = www
+listen = /var/run/php-fpm/php-fpm.sock
+listen.owner = www
+listen.group = www
+listen.mode = 0660
+pm = dynamic
+pm.max_children = 10
+pm.start_servers = 2
+pm.min_spare_servers = 1
+pm.max_spare_servers = 4
+pm.max_requests = 500
+
+; Nextcloud recommended settings
+env[HOSTNAME] = $HOSTNAME
+env[PATH] = /usr/local/bin:/usr/bin:/bin
+env[TMP] = /tmp
+env[TMPDIR] = /tmp
+env[TEMP] = /tmp
+
+php_admin_value[open_basedir] = /usr/local/www/nextcloud:/config:/data:/tmp:/dev/urandom:/var/log/nextcloud
+php_admin_value[session.save_path] = /var/lib/php/sessions
+php_admin_value[upload_tmp_dir] = /tmp
+EOFPHP
+
+# Create PHP sessions directory
+mkdir -p /var/lib/php/sessions
+chown -R bsd:bsd /var/lib/php
+
+# Create php.ini with Nextcloud recommended settings
+PHP_INI=/usr/local/etc/php.ini
+if [ ! -f "$PHP_INI" ]; then
+    cat > "$PHP_INI" << 'EOFINI'
+; Nextcloud recommended PHP settings
+memory_limit = 512M
+upload_max_filesize = 16G
+post_max_size = 16G
+max_execution_time = 3600
+max_input_time = 3600
+output_buffering = Off
+
+; OPcache settings
+opcache.enable = 1
+opcache.interned_strings_buffer = 16
+opcache.max_accelerated_files = 10000
+opcache.memory_consumption = 128
+opcache.save_comments = 1
+opcache.revalidate_freq = 1
+
+; APCu settings
+apc.enable_cli = 1
+
+; Date/time
+date.timezone = UTC
+EOFINI
+fi
+
+# Copy nginx config if not exists
+if [ ! -f /config/nginx.conf ]; then
+    cp /defaults/nginx.conf /config/nginx.conf
+fi
+ln -sf /config/nginx.conf /usr/local/etc/nginx/nginx.conf
+
+echo "Nextcloud initialization complete"
+echo "Access at http://<host>/ to run the setup wizard"

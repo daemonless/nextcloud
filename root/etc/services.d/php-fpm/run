@@ -1,0 +1,10 @@
+#!/bin/sh
+# PHP-FPM s6 service for Nextcloud
+
+mkdir -p /run/php
+chown bsd:bsd /run/php
+
+# Signal readiness when the port is responsive
+s6-ready-when fetch -qo /dev/null http://localhost:80/
+
+exec /usr/local/sbin/php-fpm -F
