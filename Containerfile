@@ -16,7 +16,6 @@ LABEL org.opencontainers.image.title="Nextcloud" \
     io.daemonless.pkg-source="containerfile" \
     io.daemonless.base="nginx" \
     io.daemonless.category="Utilities" \
-    io.daemonless.upstream-mode="pkg" \
     io.daemonless.packages="${PACKAGES}"
 
 # Install Nextcloud and dependencies
