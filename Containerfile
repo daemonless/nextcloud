@@ -3,6 +3,9 @@ FROM ghcr.io/daemonless/nginx-base:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
 ARG PACKAGES="nextcloud-php83 php83-pecl-APCu php83-pecl-redis php83-pecl-imagick php83-opcache php83-exif php83-ldap php83-pdo_mysql php83-pdo_pgsql php83-pdo_sqlite php83-sqlite3 php83-sysvsem php83-pcntl ffmpeg"
+ARG UPSTREAM_URL="https://api.github.com/repos/nextcloud/server/releases/latest"
+ARG UPSTREAM_JQ=".tag_name"
+
 LABEL org.opencontainers.image.title="Nextcloud" \
     org.opencontainers.image.description="Nextcloud self-hosted cloud on FreeBSD" \
     org.opencontainers.image.source="https://github.com/daemonless/nextcloud" \
@@ -16,6 +19,8 @@ LABEL org.opencontainers.image.title="Nextcloud" \
     io.daemonless.pkg-source="containerfile" \
     io.daemonless.base="nginx" \
     io.daemonless.category="Utilities" \
+    io.daemonless.upstream-url="${UPSTREAM_URL}" \
+    io.daemonless.upstream-jq="${UPSTREAM_JQ}" \
     io.daemonless.packages="${PACKAGES}"
 
 # Install Nextcloud and dependencies
