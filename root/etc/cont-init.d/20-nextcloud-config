@@ -61,8 +61,8 @@ fi
 
 # Set ownership
 chown -R bsd:bsd /config /data /var/log/nextcloud /var/run/php-fpm
-chown -h www:www "$NEXTCLOUD_DIR/config" 2>/dev/null || true
-# Ensure apps directory is writable (pkg installs as root, but we need www to own it)
+chown -h bsd:bsd "$NEXTCLOUD_DIR/config" 2>/dev/null || true
+# Ensure apps directory is writable
 chown -R bsd:bsd "$NEXTCLOUD_DIR/apps" 2>/dev/null || true
 
 # Configure PHP-FPM to use Unix socket (overwrite pkg default which uses TCP)
@@ -70,11 +70,11 @@ PHP_FPM_CONF=/usr/local/etc/php-fpm.d/www.conf
 mkdir -p /usr/local/etc/php-fpm.d
 cat > "$PHP_FPM_CONF" << 'EOFPHP'
 [www]
-user = www
-group = www
+user = bsd
+group = bsd
 listen = /var/run/php-fpm/php-fpm.sock
-listen.owner = www
-listen.group = www
+listen.owner = bsd
+listen.group = bsd
 listen.mode = 0660
 pm = dynamic
 pm.max_children = 10
