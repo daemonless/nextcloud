@@ -1,4 +1,4 @@
 icon: ':simple-nextcloud:'
 cit:
   mode: screenshot
-  port: 80
+  port: 8082
