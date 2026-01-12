@@ -5,6 +5,6 @@ mkdir -p /run/php
 chown bsd:bsd /run/php
 
 # Signal readiness when the port is responsive
-s6-ready-when fetch -qo /dev/null http://localhost:80/
+s6-ready-when fetch -qo /dev/null http://localhost:8082/
 
 exec /usr/local/sbin/php-fpm -F
