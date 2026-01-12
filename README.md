@@ -1,39 +1,17 @@
-# nextcloud
+# Nextcloud
 
-Self-hosted productivity platform (file sync, share, collaboration).
+Nextcloud self-hosted cloud on FreeBSD.
 
-## Environment Variables
+| | |
+|---|---|
+| **Port** | 8082 |
+| **Registry** | `ghcr.io/daemonless/nextcloud` |
+| **Source** | [https://github.com/nextcloud/server](https://github.com/nextcloud/server) |
+| **Website** | [https://nextcloud.com/](https://nextcloud.com/) |
 
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `PUID` | User ID for the application process | `1000` |
-| `PGID` | Group ID for the application process | `1000` |
-| `TZ` | Timezone for the container | `UTC` |
-| `S6_LOG_ENABLE` | Enable/Disable file logging | `1` |
-| `S6_LOG_MAX_SIZE` | Max size per log file (bytes) | `1048576` |
-| `S6_LOG_MAX_FILES` | Number of rotated log files to keep | `10` |
+## Deployment
 
-## Logging
-
-This image uses `s6-log` for internal log rotation.
-- **System Logs**: Captured from console and stored at `/config/logs/daemonless/nextcloud/`.
-- **Application Logs**: Managed by the app and typically found in `/config/logs/`.
-- **Podman Logs**: Output is mirrored to the console, so `podman logs` still works.
-
-## Quick Start
-
-```bash
-podman run -d --name nextcloud \
-  --network=host \
-  -e PUID=1000 -e PGID=1000 \
-  -v /path/to/config:/config \
-  -v /path/to/data:/data \
-  ghcr.io/daemonless/nextcloud:latest
-```
-
-Access at: http://localhost:80
-
-## podman-compose
+### Podman Compose
 
 ```yaml
 services:
@@ -43,54 +21,73 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=America/New_York
+      - TZ=UTC
     volumes:
-      - /data/config/nextcloud:/config
-      - /data/nextcloud:/data
-    network_mode: host
+      - /path/to/containers/nextcloud:/config
+      - /path/to/data:/data
+    ports:
+      - 8082:8082
     restart: unless-stopped
 ```
 
-## Tags
+### Podman CLI
 
-| Tag | Source | Description |
-|-----|--------|-------------|
-| `:latest` | `www/nextcloud` | FreeBSD packages (latest branch) |
-| `:pkg` | `www/nextcloud` | FreeBSD quarterly packages |
+```bash
+podman run -d --name nextcloud \
+  -p 8082:8082 \
+  -e PUID=@PUID@ \
+  -e PGID=@PGID@ \
+  -e TZ=@TZ@ \
+  -v /path/to/containers/nextcloud:/config \ 
+  -v /path/to/data:/data \ 
+  ghcr.io/daemonless/nextcloud:latest
+```
+Access at: `http://localhost:8082`
 
-## Environment Variables
+### Ansible
+
+```yaml
+- name: Deploy nextcloud
+  containers.podman.podman_container:
+    name: nextcloud
+    image: ghcr.io/daemonless/nextcloud:latest
+    state: started
+    restart_policy: always
+    env:
+      PUID: "1000"
+      PGID: "1000"
+      TZ: "UTC"
+    ports:
+      - "8082:8082"
+    volumes:
+      - "/path/to/containers/nextcloud:/config"
+      - "/path/to/data:/data"
+```
+
+## Configuration
+
+### Environment Variables
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `PUID` | 1000 | User ID for app |
-| `PGID` | 1000 | Group ID for app |
-| `TZ` | UTC | Timezone |
+| `PUID` | `1000` | User ID for the application process |
+| `PGID` | `1000` | Group ID for the application process |
+| `TZ` | `UTC` | Timezone for the container |
 
-## Volumes
+### Volumes
 
 | Path | Description |
 |------|-------------|
-| `/config` | Configuration (nginx.conf, config.php) |
-| `/data` | User data files |
+| `/config` | Configuration and application files |
+| `/data` | User data storage |
 
-## Ports
+### Ports
 
-| Port | Description |
-|------|-------------|
-| 80 | Web UI |
+| Port | Protocol | Description |
+|------|----------|-------------|
+| `8082` | TCP |  |
 
 ## Notes
 
-- **User:** `bsd` (UID/GID set via PUID/PGID, default 1000)
-- **Base:** Built on `ghcr.io/daemonless/nginx-base-image` (FreeBSD)
-
-### Initial Setup
-Run the wizard at http://localhost:80. Select Database (SQLite, MySQL, or PostgreSQL).
-
-### Performance
-Includes APCu and OPcache. To use Redis, configure `config.php` to point to a Redis host.
-
-## Links
-
-- [Website](https://nextcloud.com/)
-- [FreshPorts](https://www.freshports.org/www/nextcloud/)
+- **User:** `bsd` (UID/GID set via PUID/PGID)
+- **Base:** Built on `ghcr.io/daemonless/base` (FreeBSD)

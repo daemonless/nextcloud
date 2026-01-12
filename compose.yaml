@@ -1,0 +1,42 @@
+name: nextcloud
+
+x-daemonless:
+  title: "Nextcloud"
+  icon: ":simple-nextcloud:"
+  category: "Utilities"
+  description: "Nextcloud self-hosted cloud on FreeBSD."
+  upstream_url: "https://github.com/nextcloud/server"
+  web_url: "https://nextcloud.com/"
+  freshports_url: "https://www.freshports.org/www/nextcloud/"
+  user: "bsd"
+  mlock: false
+  upstream_binary: false
+  
+  docs:
+    env:
+      PUID: "User ID for the application process"
+      PGID: "Group ID for the application process"
+      TZ: "Timezone for the container"
+    volumes:
+      /config: "Configuration and application files"
+      /data: "User data storage"
+    ports:
+      80: "Web UI"
+
+services:
+  nextcloud:
+    image: ghcr.io/daemonless/nextcloud:latest
+    container_name: nextcloud
+    restart: unless-stopped
+    
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+
+    volumes:
+      - /path/to/containers/nextcloud/config:/config
+      - /path/to/containers/nextcloud/data:/data
+
+    ports:
+      - "8082:80"

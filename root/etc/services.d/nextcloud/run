@@ -1,0 +1,11 @@
+#!/bin/sh
+# Nextcloud Cron s6 service
+
+# Signal readiness immediately
+s6-ready-when true
+
+# Run cron every 5 minutes
+while true; do
+    su -m bsd -c "/usr/local/bin/php -f /usr/local/www/nextcloud/cron.php"
+    sleep 300
+done
