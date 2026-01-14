@@ -1,11 +1,11 @@
 #!/bin/sh
 # Nextcloud Cron s6 service
 
-# Signal readiness immediately
-s6-ready-when true
+# Signal readiness when the web server is up (so cron doesn't run on a dead app)
+s6-ready-when fetch -qo /dev/null -T 1 http://localhost:8082/daemonless-ping
 
 # Run cron every 5 minutes
 while true; do
-    su -m bsd -c "/usr/local/bin/php -f /usr/local/www/nextcloud/cron.php"
+    s6-setuidgid bsd /usr/local/bin/php -f /usr/local/www/nextcloud/cron.php
     sleep 300
 done
