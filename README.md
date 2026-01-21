@@ -11,6 +11,7 @@ Nextcloud self-hosted cloud on FreeBSD.
 |---|---|
 | **Port** | 8082 |
 | **Registry** | `ghcr.io/daemonless/nextcloud` |
+| **Docs** | [daemonless.io/images/nextcloud](https://daemonless.io/images/nextcloud/) |
 | **Source** | [https://github.com/nextcloud/server](https://github.com/nextcloud/server) |
 | **Website** | [https://nextcloud.com/](https://nextcloud.com/) |
 
