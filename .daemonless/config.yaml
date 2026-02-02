@@ -3,5 +3,5 @@ cit:
   mode: screenshot
   port: 8082
   wait: 60
-versions:
+build:
   pkg_name: nextcloud-php83
