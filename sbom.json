@@ -1,11 +1,11 @@
 {
   "image": "nextcloud",
-  "generated": "2026-02-02T00:09:24Z",
+  "generated": "2026-02-02T11:12:05Z",
   "tags": {
     "pkg-latest": {
       "app_version": "32.0.5",
       "source": "freebsd-latest",
-      "generated": "2026-02-02T00:09:12Z",
+      "generated": "2026-02-02T11:11:54Z",
       "packages": {
         "freebsd": [
           {
@@ -270,7 +270,7 @@
           },
           {
             "name": "harfbuzz",
-            "version": "12.3.0"
+            "version": "12.3.2"
           },
           {
             "name": "highway",
@@ -310,7 +310,7 @@
           },
           {
             "name": "lcms2",
-            "version": "2.17"
+            "version": "2.18"
           },
           {
             "name": "lerc",
@@ -442,7 +442,7 @@
           },
           {
             "name": "libgcrypt",
-            "version": "1.11.2"
+            "version": "1.12.0"
           },
           {
             "name": "libgd",
@@ -858,7 +858,7 @@
           },
           {
             "name": "png",
-            "version": "1.6.53"
+            "version": "1.6.54"
           },
           {
             "name": "poppler-data",
@@ -1014,7 +1014,7 @@
     "pkg": {
       "app_version": "32.0.3_4",
       "source": "freebsd-quarterly",
-      "generated": "2026-02-02T00:08:53Z",
+      "generated": "2026-02-02T11:10:48Z",
       "packages": {
         "freebsd": [
           {
