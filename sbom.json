@@ -1,11 +1,12 @@
 {
   "image": "nextcloud",
-  "generated": "2026-02-02T13:42:55Z",
+  "generated": "2026-02-06T00:35:17Z",
   "tags": {
     "pkg-latest": {
+      "arch": "amd64",
       "app_version": "32.0.5",
       "source": "freebsd-latest",
-      "generated": "2026-02-02T13:38:42Z",
+      "generated": "2026-02-06T00:26:25Z",
       "packages": {
         "freebsd": [
           {
@@ -650,7 +651,7 @@
           },
           {
             "name": "nginx",
-            "version": "1.28.0_10,3"
+            "version": "1.28.0_11,3"
           },
           {
             "name": "oniguruma",
@@ -998,23 +999,106 @@
           }
         ],
         "dotnet": [],
-        "python": [],
-        "node": [],
+        "python": [
+          {
+            "name": "example",
+            "version": "21.12"
+          },
+          {
+            "name": "numpy",
+            "version": "1.26.4"
+          },
+          {
+            "name": "packaging",
+            "version": "25.0"
+          }
+        ],
+        "node": [
+          {
+            "name": "MathJax-grunt-cleaner",
+            "version": "0.1.0"
+          },
+          {
+            "name": "activity",
+            "version": "5.0.0-dev.0"
+          },
+          {
+            "name": "files_downloadlimit",
+            "version": "5.0.0-dev.0"
+          },
+          {
+            "name": "files_pdfviewer",
+            "version": "5.0.0-dev.0"
+          },
+          {
+            "name": "firstrunwizard",
+            "version": "5.0.0-dev.0"
+          },
+          {
+            "name": "logreader",
+            "version": "5.0.0-dev.0"
+          },
+          {
+            "name": "nextcloud",
+            "version": "1.0.0"
+          },
+          {
+            "name": "notifications",
+            "version": "5.0.0-dev.0"
+          },
+          {
+            "name": "password_policy",
+            "version": "4.0.0-dev.0"
+          },
+          {
+            "name": "photos",
+            "version": "5.0.0-dev.1"
+          },
+          {
+            "name": "privacy",
+            "version": "4.0.0-dev.0"
+          },
+          {
+            "name": "recommendations",
+            "version": "5.0.0-dev.0"
+          },
+          {
+            "name": "support",
+            "version": "4.0.0-dev.0"
+          },
+          {
+            "name": "teams",
+            "version": "32.0.0"
+          },
+          {
+            "name": "text",
+            "version": "6.0.0"
+          },
+          {
+            "name": "twofactor_totp",
+            "version": "14.0.0"
+          },
+          {
+            "name": "viewer",
+            "version": "5.0.0-dev.0"
+          }
+        ],
         "go": []
       },
       "summary": {
         "freebsd": 247,
         "dotnet": 0,
-        "python": 0,
-        "node": 0,
+        "python": 3,
+        "node": 17,
         "go": 0,
-        "total": 247
+        "total": 267
       }
     },
     "pkg": {
+      "arch": "amd64",
       "app_version": "32.0.3_4",
       "source": "freebsd-quarterly",
-      "generated": "2026-02-02T13:38:59Z",
+      "generated": "2026-02-06T00:35:06Z",
       "packages": {
         "freebsd": [
           {
@@ -1583,11 +1667,11 @@
           },
           {
             "name": "libxml2",
-            "version": "2.14.6"
+            "version": "2.15.1"
           },
           {
             "name": "libxslt",
-            "version": "1.1.43_1"
+            "version": "1.1.45"
           },
           {
             "name": "libzip",
@@ -1963,17 +2047,99 @@
           }
         ],
         "dotnet": [],
-        "python": [],
-        "node": [],
+        "python": [
+          {
+            "name": "example",
+            "version": "21.12"
+          },
+          {
+            "name": "numpy",
+            "version": "1.26.4"
+          },
+          {
+            "name": "packaging",
+            "version": "25.0"
+          }
+        ],
+        "node": [
+          {
+            "name": "MathJax-grunt-cleaner",
+            "version": "0.1.0"
+          },
+          {
+            "name": "activity",
+            "version": "5.0.0-dev.0"
+          },
+          {
+            "name": "files_downloadlimit",
+            "version": "5.0.0-dev.0"
+          },
+          {
+            "name": "files_pdfviewer",
+            "version": "5.0.0-dev.0"
+          },
+          {
+            "name": "firstrunwizard",
+            "version": "5.0.0-dev.0"
+          },
+          {
+            "name": "logreader",
+            "version": "5.0.0-dev.0"
+          },
+          {
+            "name": "nextcloud",
+            "version": "1.0.0"
+          },
+          {
+            "name": "notifications",
+            "version": "5.0.0-dev.0"
+          },
+          {
+            "name": "password_policy",
+            "version": "4.0.0-dev.0"
+          },
+          {
+            "name": "photos",
+            "version": "5.0.0-dev.1"
+          },
+          {
+            "name": "privacy",
+            "version": "4.0.0-dev.0"
+          },
+          {
+            "name": "recommendations",
+            "version": "5.0.0-dev.0"
+          },
+          {
+            "name": "support",
+            "version": "4.0.0-dev.0"
+          },
+          {
+            "name": "teams",
+            "version": "32.0.0"
+          },
+          {
+            "name": "text",
+            "version": "6.0.0"
+          },
+          {
+            "name": "twofactor_totp",
+            "version": "14.0.0"
+          },
+          {
+            "name": "viewer",
+            "version": "5.0.0-dev.0"
+          }
+        ],
         "go": []
       },
       "summary": {
         "freebsd": 236,
         "dotnet": 0,
-        "python": 0,
-        "node": 0,
+        "python": 3,
+        "node": 17,
         "go": 0,
-        "total": 236
+        "total": 256
       }
     }
   }
