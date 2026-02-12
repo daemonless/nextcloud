@@ -1,12 +1,12 @@
 {
   "image": "nextcloud",
-  "generated": "2026-02-06T00:35:17Z",
+  "generated": "2026-02-12T22:17:59Z",
   "tags": {
     "pkg-latest": {
       "arch": "amd64",
       "app_version": "32.0.5",
       "source": "freebsd-latest",
-      "generated": "2026-02-06T00:26:25Z",
+      "generated": "2026-02-12T22:17:45Z",
       "packages": {
         "freebsd": [
           {
@@ -135,7 +135,7 @@
           },
           {
             "name": "ImageMagick7",
-            "version": "7.1.2.11"
+            "version": "7.1.2.11_1"
           },
           {
             "name": "Imath",
@@ -199,11 +199,11 @@
           },
           {
             "name": "expat",
-            "version": "2.7.3"
+            "version": "2.7.4"
           },
           {
             "name": "ffmpeg",
-            "version": "8.0.1_3,1"
+            "version": "8.0.1_4,1"
           },
           {
             "name": "fftw3",
@@ -239,7 +239,7 @@
           },
           {
             "name": "ghostscript10",
-            "version": "10.06.0_1"
+            "version": "10.06.0_2"
           },
           {
             "name": "giflib",
@@ -479,7 +479,7 @@
           },
           {
             "name": "libjxl",
-            "version": "0.11.1_2"
+            "version": "0.11.1_3"
           },
           {
             "name": "liblqr-1",
@@ -511,7 +511,7 @@
           },
           {
             "name": "libplacebo",
-            "version": "7.351.0_1"
+            "version": "7.351.0_2"
           },
           {
             "name": "libpsl",
@@ -523,7 +523,7 @@
           },
           {
             "name": "libraw",
-            "version": "0.21.5"
+            "version": "0.21.5_1"
           },
           {
             "name": "librsvg2-rust",
@@ -671,7 +671,7 @@
           },
           {
             "name": "openjpeg",
-            "version": "2.5.4_1"
+            "version": "2.5.4_2"
           },
           {
             "name": "openjph",
@@ -687,11 +687,11 @@
           },
           {
             "name": "p11-kit",
-            "version": "0.26.1"
+            "version": "0.26.2"
           },
           {
             "name": "pango",
-            "version": "1.56.4"
+            "version": "1.56.4_1"
           },
           {
             "name": "pcre2",
@@ -879,11 +879,11 @@
           },
           {
             "name": "py311-packaging",
-            "version": "25.0"
+            "version": "26.0"
           },
           {
             "name": "python311",
-            "version": "3.11.14_1"
+            "version": "3.11.14_2"
           },
           {
             "name": "readline",
@@ -903,7 +903,7 @@
           },
           {
             "name": "shaderc",
-            "version": "2025.5_1"
+            "version": "2026.1"
           },
           {
             "name": "shared-mime-info",
@@ -999,20 +999,8 @@
           }
         ],
         "dotnet": [],
-        "python": [
-          {
-            "name": "example",
-            "version": "21.12"
-          },
-          {
-            "name": "numpy",
-            "version": "1.26.4"
-          },
-          {
-            "name": "packaging",
-            "version": "25.0"
-          }
-        ],
+        "go": [],
+        "java": [],
         "node": [
           {
             "name": "MathJax-grunt-cleaner",
@@ -1083,14 +1071,34 @@
             "version": "5.0.0-dev.0"
           }
         ],
-        "go": []
+        "php": [],
+        "python": [
+          {
+            "name": "example",
+            "version": "21.12"
+          },
+          {
+            "name": "numpy",
+            "version": "1.26.4"
+          },
+          {
+            "name": "packaging",
+            "version": "26.0"
+          }
+        ],
+        "ruby": [],
+        "rust": []
       },
       "summary": {
         "freebsd": 247,
         "dotnet": 0,
-        "python": 3,
-        "node": 17,
         "go": 0,
+        "java": 0,
+        "node": 17,
+        "php": 0,
+        "python": 3,
+        "ruby": 0,
+        "rust": 0,
         "total": 267
       }
     },
@@ -1098,7 +1106,7 @@
       "arch": "amd64",
       "app_version": "32.0.3_4",
       "source": "freebsd-quarterly",
-      "generated": "2026-02-06T00:35:06Z",
+      "generated": "2026-02-12T22:17:04Z",
       "packages": {
         "freebsd": [
           {
@@ -1743,7 +1751,7 @@
           },
           {
             "name": "p11-kit",
-            "version": "0.25.10"
+            "version": "0.26.2"
           },
           {
             "name": "pango",
@@ -1939,7 +1947,7 @@
           },
           {
             "name": "python311",
-            "version": "3.11.14_1"
+            "version": "3.11.14_2"
           },
           {
             "name": "readline",
@@ -2047,20 +2055,8 @@
           }
         ],
         "dotnet": [],
-        "python": [
-          {
-            "name": "example",
-            "version": "21.12"
-          },
-          {
-            "name": "numpy",
-            "version": "1.26.4"
-          },
-          {
-            "name": "packaging",
-            "version": "25.0"
-          }
-        ],
+        "go": [],
+        "java": [],
         "node": [
           {
             "name": "MathJax-grunt-cleaner",
@@ -2131,14 +2127,34 @@
             "version": "5.0.0-dev.0"
           }
         ],
-        "go": []
+        "php": [],
+        "python": [
+          {
+            "name": "example",
+            "version": "21.12"
+          },
+          {
+            "name": "numpy",
+            "version": "1.26.4"
+          },
+          {
+            "name": "packaging",
+            "version": "25.0"
+          }
+        ],
+        "ruby": [],
+        "rust": []
       },
       "summary": {
         "freebsd": 236,
         "dotnet": 0,
-        "python": 3,
-        "node": 17,
         "go": 0,
+        "java": 0,
+        "node": 17,
+        "php": 0,
+        "python": 3,
+        "ruby": 0,
+        "rust": 0,
         "total": 256
       }
     }
