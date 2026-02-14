@@ -1,12 +1,12 @@
 {
   "image": "nextcloud",
-  "generated": "2026-02-13T22:02:30Z",
+  "generated": "2026-02-14T10:05:46Z",
   "tags": {
     "pkg-latest": {
       "arch": "amd64",
       "app_version": "32.0.5",
       "source": "pkg",
-      "generated": "2026-02-13T21:59:24Z",
+      "generated": "2026-02-14T10:05:08Z",
       "packages": {
         "freebsd": [
           {
@@ -183,7 +183,7 @@
           },
           {
             "name": "dav1d",
-            "version": "1.5.3"
+            "version": "1.5.3_1"
           },
           {
             "name": "dbus",
@@ -203,7 +203,7 @@
           },
           {
             "name": "ffmpeg",
-            "version": "8.0.1_4,1"
+            "version": "8.0.1_5,1"
           },
           {
             "name": "fftw3",
@@ -479,7 +479,7 @@
           },
           {
             "name": "libjxl",
-            "version": "0.11.1_3"
+            "version": "0.11.2"
           },
           {
             "name": "liblqr-1",
@@ -511,7 +511,7 @@
           },
           {
             "name": "libplacebo",
-            "version": "7.351.0_2"
+            "version": "7.360.0"
           },
           {
             "name": "libpsl",
@@ -943,7 +943,7 @@
           },
           {
             "name": "suitesparse-config",
-            "version": "7.12.1"
+            "version": "7.12.2"
           },
           {
             "name": "suitesparse-umfpack",
@@ -1106,7 +1106,7 @@
       "arch": "amd64",
       "app_version": "32.0.3_4",
       "source": "pkg",
-      "generated": "2026-02-13T22:01:38Z",
+      "generated": "2026-02-14T10:05:37Z",
       "packages": {
         "freebsd": [
           {
