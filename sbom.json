@@ -1,12 +1,12 @@
 {
   "image": "nextcloud",
-  "generated": "2026-02-14T10:05:46Z",
+  "generated": "2026-02-14T14:35:22Z",
   "tags": {
     "pkg-latest": {
       "arch": "amd64",
       "app_version": "32.0.5",
       "source": "pkg",
-      "generated": "2026-02-14T10:05:08Z",
+      "generated": "2026-02-14T14:30:08Z",
       "packages": {
         "freebsd": [
           {
@@ -1106,7 +1106,7 @@
       "arch": "amd64",
       "app_version": "32.0.3_4",
       "source": "pkg",
-      "generated": "2026-02-14T10:05:37Z",
+      "generated": "2026-02-14T14:29:44Z",
       "packages": {
         "freebsd": [
           {
