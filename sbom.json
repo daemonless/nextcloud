@@ -1,12 +1,12 @@
 {
   "image": "nextcloud",
-  "generated": "2026-02-14T14:35:22Z",
+  "generated": "2026-02-16T09:08:50Z",
   "tags": {
     "pkg-latest": {
       "arch": "amd64",
-      "app_version": "32.0.5",
+      "app_version": "32.0.6",
       "source": "pkg",
-      "generated": "2026-02-14T14:30:08Z",
+      "generated": "2026-02-16T09:08:17Z",
       "packages": {
         "freebsd": [
           {
@@ -279,7 +279,7 @@
           },
           {
             "name": "hwdata",
-            "version": "0.403,1"
+            "version": "0.404,1"
           },
           {
             "name": "icu",
@@ -443,7 +443,7 @@
           },
           {
             "name": "libgcrypt",
-            "version": "1.12.0"
+            "version": "1.12.0_1"
           },
           {
             "name": "libgd",
@@ -647,7 +647,7 @@
           },
           {
             "name": "nextcloud-php83",
-            "version": "32.0.5"
+            "version": "32.0.6"
           },
           {
             "name": "nginx",
@@ -867,7 +867,7 @@
           },
           {
             "name": "postgresql17-client",
-            "version": "17.7_2"
+            "version": "17.8_2"
           },
           {
             "name": "py311-boost-libs",
@@ -1016,7 +1016,7 @@
           },
           {
             "name": "files_pdfviewer",
-            "version": "5.0.0-dev.0"
+            "version": "5.0.0"
           },
           {
             "name": "firstrunwizard",
@@ -1024,7 +1024,7 @@
           },
           {
             "name": "logreader",
-            "version": "5.0.0-dev.0"
+            "version": "5.0.0"
           },
           {
             "name": "nextcloud",
@@ -1106,7 +1106,7 @@
       "arch": "amd64",
       "app_version": "32.0.3_4",
       "source": "pkg",
-      "generated": "2026-02-14T14:29:44Z",
+      "generated": "2026-02-16T09:08:40Z",
       "packages": {
         "freebsd": [
           {
@@ -1555,7 +1555,7 @@
           },
           {
             "name": "libjxl",
-            "version": "0.11.1_2"
+            "version": "0.11.2"
           },
           {
             "name": "liblqr-1",
