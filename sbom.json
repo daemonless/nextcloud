@@ -1,12 +1,12 @@
 {
   "image": "nextcloud",
-  "generated": "2026-02-16T09:08:50Z",
+  "generated": "2026-02-18T16:03:43Z",
   "tags": {
     "pkg-latest": {
       "arch": "amd64",
       "app_version": "32.0.6",
       "source": "pkg",
-      "generated": "2026-02-16T09:08:17Z",
+      "generated": "2026-02-18T16:03:27Z",
       "packages": {
         "freebsd": [
           {
@@ -651,7 +651,7 @@
           },
           {
             "name": "nginx",
-            "version": "1.28.0_11,3"
+            "version": "1.28.2_11,3"
           },
           {
             "name": "oniguruma",
@@ -1106,7 +1106,7 @@
       "arch": "amd64",
       "app_version": "32.0.3_4",
       "source": "pkg",
-      "generated": "2026-02-16T09:08:40Z",
+      "generated": "2026-02-18T16:02:23Z",
       "packages": {
         "freebsd": [
           {
