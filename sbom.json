@@ -1,12 +1,12 @@
 {
   "image": "nextcloud",
-  "generated": "2026-02-18T16:03:43Z",
+  "generated": "2026-03-02T22:20:03Z",
   "tags": {
     "pkg-latest": {
       "arch": "amd64",
-      "app_version": "32.0.6",
+      "app_version": "33.0.0",
       "source": "pkg",
-      "generated": "2026-02-18T16:03:27Z",
+      "generated": "2026-03-02T22:19:32Z",
       "packages": {
         "freebsd": [
           {
@@ -135,7 +135,7 @@
           },
           {
             "name": "ImageMagick7",
-            "version": "7.1.2.11_1"
+            "version": "7.1.2.15"
           },
           {
             "name": "Imath",
@@ -395,7 +395,7 @@
           },
           {
             "name": "libbluray",
-            "version": "1.4.0,1"
+            "version": "1.4.0_1,1"
           },
           {
             "name": "libdaemon",
@@ -455,7 +455,7 @@
           },
           {
             "name": "libgpg-error",
-            "version": "1.58"
+            "version": "1.59"
           },
           {
             "name": "libheif",
@@ -527,7 +527,7 @@
           },
           {
             "name": "librsvg2-rust",
-            "version": "2.61.3_1"
+            "version": "2.61.4"
           },
           {
             "name": "libsodium",
@@ -559,7 +559,7 @@
           },
           {
             "name": "libunistring",
-            "version": "1.4.1"
+            "version": "1.4.2"
           },
           {
             "name": "libunwind",
@@ -647,7 +647,7 @@
           },
           {
             "name": "nextcloud-php83",
-            "version": "32.0.6"
+            "version": "33.0.0"
           },
           {
             "name": "nginx",
@@ -663,7 +663,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.4_1"
+            "version": "3.4.5"
           },
           {
             "name": "openh264",
@@ -859,7 +859,7 @@
           },
           {
             "name": "png",
-            "version": "1.6.54"
+            "version": "1.6.55"
           },
           {
             "name": "poppler-data",
@@ -867,7 +867,7 @@
           },
           {
             "name": "postgresql17-client",
-            "version": "17.8_2"
+            "version": "17.9"
           },
           {
             "name": "py311-boost-libs",
@@ -1008,23 +1008,23 @@
           },
           {
             "name": "activity",
-            "version": "5.0.0-dev.0"
+            "version": "6.0.0-dev.0"
           },
           {
             "name": "files_downloadlimit",
-            "version": "5.0.0-dev.0"
+            "version": "5.1.0-dev.0"
           },
           {
             "name": "files_pdfviewer",
-            "version": "5.0.0"
+            "version": "6.0.0-dev.0"
           },
           {
             "name": "firstrunwizard",
-            "version": "5.0.0-dev.0"
+            "version": "6.0.0-dev.0"
           },
           {
             "name": "logreader",
-            "version": "5.0.0"
+            "version": "6.0.0"
           },
           {
             "name": "nextcloud",
@@ -1032,43 +1032,43 @@
           },
           {
             "name": "notifications",
-            "version": "5.0.0-dev.0"
+            "version": "6.0.0-dev.0"
           },
           {
             "name": "password_policy",
-            "version": "4.0.0-dev.0"
+            "version": "5.0.0-dev.0"
           },
           {
             "name": "photos",
-            "version": "5.0.0-dev.1"
+            "version": "6.0.0-dev.0"
           },
           {
             "name": "privacy",
-            "version": "4.0.0-dev.0"
+            "version": "5.0.0-dev.0"
           },
           {
             "name": "recommendations",
-            "version": "5.0.0-dev.0"
+            "version": "6.0.0-dev.0"
           },
           {
             "name": "support",
-            "version": "4.0.0-dev.0"
+            "version": "5.0.0-dev.0"
           },
           {
             "name": "teams",
-            "version": "32.0.0"
+            "version": "33.0.0-dev.0"
           },
           {
             "name": "text",
-            "version": "6.0.0"
+            "version": "7.0.0-dev.1"
           },
           {
             "name": "twofactor_totp",
-            "version": "14.0.0"
+            "version": "15.0.0-dev.0"
           },
           {
             "name": "viewer",
-            "version": "5.0.0-dev.0"
+            "version": "6.0.0-dev.0"
           }
         ],
         "php": [],
@@ -1106,7 +1106,7 @@
       "arch": "amd64",
       "app_version": "32.0.3_4",
       "source": "pkg",
-      "generated": "2026-02-18T16:02:23Z",
+      "generated": "2026-03-02T22:19:53Z",
       "packages": {
         "freebsd": [
           {
@@ -1235,7 +1235,7 @@
           },
           {
             "name": "ImageMagick7",
-            "version": "7.1.2.11"
+            "version": "7.1.2.15"
           },
           {
             "name": "Imath",
@@ -1727,7 +1727,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.4"
+            "version": "3.4.5"
           },
           {
             "name": "openh264",
