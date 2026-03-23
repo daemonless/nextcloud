@@ -1,12 +1,12 @@
 {
   "image": "nextcloud",
-  "generated": "2026-03-02T22:20:03Z",
+  "generated": "2026-03-23T21:38:20Z",
   "tags": {
     "pkg-latest": {
       "arch": "amd64",
       "app_version": "33.0.0",
       "source": "pkg",
-      "generated": "2026-03-02T22:19:32Z",
+      "generated": "2026-03-23T21:37:28Z",
       "packages": {
         "freebsd": [
           {
@@ -135,7 +135,7 @@
           },
           {
             "name": "ImageMagick7",
-            "version": "7.1.2.15"
+            "version": "7.1.2.16"
           },
           {
             "name": "Imath",
@@ -143,7 +143,7 @@
           },
           {
             "name": "aom",
-            "version": "3.13.1"
+            "version": "3.13.2"
           },
           {
             "name": "avahi-app",
@@ -215,7 +215,7 @@
           },
           {
             "name": "freetype2",
-            "version": "2.14.1"
+            "version": "2.14.2"
           },
           {
             "name": "fribidi",
@@ -259,7 +259,7 @@
           },
           {
             "name": "gnutls",
-            "version": "3.8.11"
+            "version": "3.8.12"
           },
           {
             "name": "graphite2",
@@ -271,7 +271,7 @@
           },
           {
             "name": "harfbuzz",
-            "version": "12.3.2"
+            "version": "13.0.1"
           },
           {
             "name": "highway",
@@ -279,7 +279,7 @@
           },
           {
             "name": "hwdata",
-            "version": "0.404,1"
+            "version": "0.405,1"
           },
           {
             "name": "icu",
@@ -327,7 +327,7 @@
           },
           {
             "name": "libX11",
-            "version": "1.8.12,1"
+            "version": "1.8.13,1"
           },
           {
             "name": "libXScrnSaver",
@@ -395,7 +395,7 @@
           },
           {
             "name": "libbluray",
-            "version": "1.4.0_1,1"
+            "version": "1.4.1,1"
           },
           {
             "name": "libdaemon",
@@ -439,7 +439,7 @@
           },
           {
             "name": "libfontenc",
-            "version": "1.1.8"
+            "version": "1.1.9"
           },
           {
             "name": "libgcrypt",
@@ -511,7 +511,7 @@
           },
           {
             "name": "libplacebo",
-            "version": "7.360.0"
+            "version": "7.360.1"
           },
           {
             "name": "libpsl",
@@ -603,7 +603,7 @@
           },
           {
             "name": "libxml2",
-            "version": "2.15.1_1"
+            "version": "2.15.2"
           },
           {
             "name": "libxshmfence",
@@ -675,11 +675,11 @@
           },
           {
             "name": "openjph",
-            "version": "0.26.0"
+            "version": "0.26.3"
           },
           {
             "name": "openldap26-client",
-            "version": "2.6.12"
+            "version": "2.6.13"
           },
           {
             "name": "opus",
@@ -699,7 +699,7 @@
           },
           {
             "name": "perl5",
-            "version": "5.42.0_1"
+            "version": "5.42.1"
           },
           {
             "name": "php83",
@@ -851,7 +851,7 @@
           },
           {
             "name": "pkg",
-            "version": "2.5.1"
+            "version": "2.6.2_1"
           },
           {
             "name": "pkgconf",
@@ -866,8 +866,8 @@
             "version": "0.4.12"
           },
           {
-            "name": "postgresql17-client",
-            "version": "17.9"
+            "name": "postgresql18-client",
+            "version": "18.3"
           },
           {
             "name": "py311-boost-libs",
@@ -883,7 +883,7 @@
           },
           {
             "name": "python311",
-            "version": "3.11.14_2"
+            "version": "3.11.15"
           },
           {
             "name": "readline",
@@ -1106,7 +1106,7 @@
       "arch": "amd64",
       "app_version": "32.0.3_4",
       "source": "pkg",
-      "generated": "2026-03-02T22:19:53Z",
+      "generated": "2026-03-23T21:38:08Z",
       "packages": {
         "freebsd": [
           {
@@ -1235,7 +1235,7 @@
           },
           {
             "name": "ImageMagick7",
-            "version": "7.1.2.15"
+            "version": "7.1.2.16"
           },
           {
             "name": "Imath",
@@ -1243,7 +1243,7 @@
           },
           {
             "name": "aom",
-            "version": "3.13.1"
+            "version": "3.13.2"
           },
           {
             "name": "avahi-app",
@@ -1299,7 +1299,7 @@
           },
           {
             "name": "expat",
-            "version": "2.7.3"
+            "version": "2.7.4"
           },
           {
             "name": "ffmpeg",
@@ -1359,7 +1359,7 @@
           },
           {
             "name": "gnutls",
-            "version": "3.8.11"
+            "version": "3.8.12"
           },
           {
             "name": "graphite2",
@@ -1675,7 +1675,7 @@
           },
           {
             "name": "libxml2",
-            "version": "2.15.1"
+            "version": "2.15.2"
           },
           {
             "name": "libxslt",
@@ -1931,7 +1931,7 @@
           },
           {
             "name": "postgresql17-client",
-            "version": "17.7_2"
+            "version": "17.9"
           },
           {
             "name": "py311-boost-libs",
@@ -1947,7 +1947,7 @@
           },
           {
             "name": "python311",
-            "version": "3.11.14_2"
+            "version": "3.11.15"
           },
           {
             "name": "readline",
