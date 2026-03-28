@@ -17,7 +17,7 @@ ENV HEALTHCHECK_URL="${HEALTHCHECK_ENDPOINT}"
 
 # --- Metadata (Injected by Generator) ---
 LABEL org.opencontainers.image.title="Nextcloud" \
-      org.opencontainers.image.description="Nextcloud self-hosted cloud on FreeBSD." \
+      org.opencontainers.image.description="Online collaboration platform providing groupware capabilities by default, extensible with additional apps." \
       org.opencontainers.image.source="https://github.com/daemonless/nextcloud" \
       org.opencontainers.image.url="https://nextcloud.com/" \
       org.opencontainers.image.documentation="https://docs.nextcloud.com/" \

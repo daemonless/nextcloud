@@ -5,15 +5,29 @@ Source: dbuild templates
 
 # Nextcloud
 
-Nextcloud self-hosted cloud on FreeBSD.
+[![Build Status](https://img.shields.io/github/actions/workflow/status/daemonless/nextcloud/build.yaml?style=flat-square&label=Build&color=green)](https://github.com/daemonless/nextcloud/actions)
+[![Last Commit](https://img.shields.io/github/last-commit/daemonless/nextcloud?style=flat-square&label=Last+Commit&color=blue)](https://github.com/daemonless/nextcloud/commits)
+
+Online collaboration platform providing groupware capabilities by default, extensible with additional apps.
+
 
 | | |
 |---|---|
 | **Port** | 8082 |
 | **Registry** | `ghcr.io/daemonless/nextcloud` |
-| **Docs** | [daemonless.io/images/nextcloud](https://daemonless.io/images/nextcloud/) |
 | **Source** | [https://github.com/nextcloud/server](https://github.com/nextcloud/server) |
 | **Website** | [https://nextcloud.com/](https://nextcloud.com/) |
+
+## Version Tags
+
+| Tag | Description | Best For |
+| :--- | :--- | :--- |
+| `latest` / `pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Most users. Matches Linux Docker behavior. |
+| `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
+
+## Prerequisites
+
+Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.
 
 ## Deployment
 
@@ -29,11 +43,58 @@ services:
       - PGID=1000
       - TZ=UTC
     volumes:
-      - /path/to/containers/nextcloud:/config
-      - /path/to/data:/data
+      - "/path/to/containers/nextcloud:/config"
+      - "/path/to/containers/nextcloud/data:/data"
     ports:
       - 8082:8082
     restart: unless-stopped
+```
+
+### AppJail Director
+
+**.env**:
+
+```
+DIRECTOR_PROJECT=nextcloud
+PUID=1000
+PGID=1000
+TZ=UTC
+```
+
+**appjail-director.yml**:
+
+```yaml
+options:
+  - virtualnet: ':<random> default'
+  - nat:
+services:
+  nextcloud:
+    name: nextcloud
+    options:
+      - container: 'boot args:--pull'
+    oci:
+      user: root
+      environment:
+        - PUID: !ENV '${PUID}'
+        - PGID: !ENV '${PGID}'
+        - TZ: !ENV '${TZ}'
+    volumes:
+      - nextcloud: /config
+      - nextcloud_data: /data
+volumes:
+  nextcloud:
+    device: '/path/to/containers/nextcloud'
+  nextcloud_data:
+    device: '/path/to/containers/nextcloud/data'
+```
+
+**Makejail**:
+
+```
+ARG tag=latest
+
+OPTION overwrite=force
+OPTION from=ghcr.io/daemonless/nextcloud:${tag}
 ```
 
 ### Podman CLI
@@ -41,14 +102,13 @@ services:
 ```bash
 podman run -d --name nextcloud \
   -p 8082:8082 \
-  -e PUID=@PUID@ \
-  -e PGID=@PGID@ \
-  -e TZ=@TZ@ \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=UTC \
   -v /path/to/containers/nextcloud:/config \
-  -v /path/to/data:/data \
+  -v /path/to/containers/nextcloud/data:/data \
   ghcr.io/daemonless/nextcloud:latest
 ```
-Access at: `http://localhost:8082`
 
 ### Ansible
 
@@ -60,17 +120,20 @@ Access at: `http://localhost:8082`
     state: started
     restart_policy: always
     env:
-      PUID: "@PUID@"
-      PGID: "@PGID@"
-      TZ: "@TZ@"
+      PUID: "1000"
+      PGID: "1000"
+      TZ: "UTC"
     ports:
       - "8082:8082"
     volumes:
       - "/path/to/containers/nextcloud:/config"
-      - "/path/to/data:/data"
+      - "/path/to/containers/nextcloud/data:/data"
 ```
 
-## Configuration
+Access at: `http://localhost:8082`
+
+## Parameters
+
 ### Environment Variables
 
 | Variable | Default | Description |
@@ -78,20 +141,24 @@ Access at: `http://localhost:8082`
 | `PUID` | `1000` | User ID for the application process |
 | `PGID` | `1000` | Group ID for the application process |
 | `TZ` | `UTC` | Timezone for the container |
+
 ### Volumes
 
 | Path | Description |
 |------|-------------|
 | `/config` | Configuration and application files |
 | `/data` | User data storage |
+
 ### Ports
 
 | Port | Protocol | Description |
 |------|----------|-------------|
 | `8082` | TCP |  |
 
-## Notes
+**Architectures:** amd64
+**User:** `bsd` (UID/GID via PUID/PGID, defaults to 1000:1000)
+**Base:** FreeBSD 15.0
 
-- **Architectures:** amd64
-- **User:** `bsd` (UID/GID set via PUID/PGID)
-- **Base:** Built on `ghcr.io/daemonless/base` (FreeBSD)
+---
+
+Need help? Join our [Discord](https://discord.gg/Kb9tkhecZT) community.

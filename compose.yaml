@@ -4,13 +4,14 @@ x-daemonless:
   title: "Nextcloud"
   icon: ":simple-nextcloud:"
   category: "Utilities"
-  description: "Nextcloud self-hosted cloud on FreeBSD."
+  description: "Online collaboration platform providing groupware capabilities by default, extensible with additional apps."
   upstream_url: "https://github.com/nextcloud/server"
   web_url: "https://nextcloud.com/"
   freshports_url: "https://www.freshports.org/www/nextcloud/"
   user: "bsd"
   mlock: false
   upstream_binary: false
+  appjail: true
   
   docs:
     env:
