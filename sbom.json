@@ -1,12 +1,12 @@
 {
   "image": "nextcloud",
-  "generated": "2026-03-23T21:38:20Z",
+  "generated": "2026-03-28T16:53:31Z",
   "tags": {
     "pkg-latest": {
       "arch": "amd64",
       "app_version": "33.0.0",
       "source": "pkg",
-      "generated": "2026-03-23T21:37:28Z",
+      "generated": "2026-03-28T16:53:21Z",
       "packages": {
         "freebsd": [
           {
@@ -166,6 +166,10 @@
             "version": "1.2.0,1"
           },
           {
+            "name": "ca_root_nss",
+            "version": "3.117_2"
+          },
+          {
             "name": "cairo",
             "version": "1.18.2,3"
           },
@@ -195,11 +199,11 @@
           },
           {
             "name": "execline",
-            "version": "2.9.7.0"
+            "version": "2.9.8.1"
           },
           {
             "name": "expat",
-            "version": "2.7.4"
+            "version": "2.7.5"
           },
           {
             "name": "ffmpeg",
@@ -215,7 +219,7 @@
           },
           {
             "name": "freetype2",
-            "version": "2.14.2"
+            "version": "2.14.3"
           },
           {
             "name": "fribidi",
@@ -239,7 +243,7 @@
           },
           {
             "name": "ghostscript10",
-            "version": "10.06.0_2"
+            "version": "10.07.0"
           },
           {
             "name": "giflib",
@@ -271,7 +275,7 @@
           },
           {
             "name": "harfbuzz",
-            "version": "13.0.1"
+            "version": "13.1.1"
           },
           {
             "name": "highway",
@@ -459,7 +463,7 @@
           },
           {
             "name": "libheif",
-            "version": "1.21.2_1"
+            "version": "1.21.2_2"
           },
           {
             "name": "libiconv",
@@ -527,7 +531,7 @@
           },
           {
             "name": "librsvg2-rust",
-            "version": "2.61.4"
+            "version": "2.62.0_1"
           },
           {
             "name": "libsodium",
@@ -651,7 +655,7 @@
           },
           {
             "name": "nginx",
-            "version": "1.28.2_11,3"
+            "version": "1.28.2_12,3"
           },
           {
             "name": "oniguruma",
@@ -891,11 +895,11 @@
           },
           {
             "name": "s6",
-            "version": "2.13.2.0"
+            "version": "2.14.0.1"
           },
           {
             "name": "s6-rc",
-            "version": "0.5.6.0"
+            "version": "0.6.0.0"
           },
           {
             "name": "sdl2",
@@ -911,7 +915,7 @@
           },
           {
             "name": "skalibs",
-            "version": "2.14.4.0"
+            "version": "2.14.5.1"
           },
           {
             "name": "sqlite3",
@@ -951,7 +955,7 @@
           },
           {
             "name": "svt-av1",
-            "version": "4.0.1"
+            "version": "4.1.0"
           },
           {
             "name": "tiff",
@@ -1090,7 +1094,7 @@
         "rust": []
       },
       "summary": {
-        "freebsd": 247,
+        "freebsd": 248,
         "dotnet": 0,
         "go": 0,
         "java": 0,
@@ -1099,14 +1103,14 @@
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 267
+        "total": 268
       }
     },
     "pkg": {
       "arch": "amd64",
       "app_version": "32.0.3_4",
       "source": "pkg",
-      "generated": "2026-03-23T21:38:08Z",
+      "generated": "2026-03-28T16:52:10Z",
       "packages": {
         "freebsd": [
           {
@@ -1264,6 +1268,10 @@
           {
             "name": "brotli",
             "version": "1.2.0,1"
+          },
+          {
+            "name": "ca_root_nss",
+            "version": "3.117_2"
           },
           {
             "name": "cairo",
@@ -2146,7 +2154,7 @@
         "rust": []
       },
       "summary": {
-        "freebsd": 236,
+        "freebsd": 237,
         "dotnet": 0,
         "go": 0,
         "java": 0,
@@ -2155,7 +2163,7 @@
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 256
+        "total": 257
       }
     }
   }
