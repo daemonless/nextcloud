@@ -1,12 +1,12 @@
 {
   "image": "nextcloud",
-  "generated": "2026-03-28T16:53:31Z",
+  "generated": "2026-03-29T15:36:28Z",
   "tags": {
     "pkg-latest": {
       "arch": "amd64",
-      "app_version": "33.0.0",
+      "app_version": "33.0.1",
       "source": "pkg",
-      "generated": "2026-03-28T16:53:21Z",
+      "generated": "2026-03-29T15:35:22Z",
       "packages": {
         "freebsd": [
           {
@@ -179,7 +179,7 @@
           },
           {
             "name": "curl",
-            "version": "8.17.0"
+            "version": "8.19.0_1"
           },
           {
             "name": "cyrus-sasl",
@@ -651,7 +651,7 @@
           },
           {
             "name": "nextcloud-php83",
-            "version": "33.0.0"
+            "version": "33.0.1"
           },
           {
             "name": "nginx",
@@ -1110,7 +1110,7 @@
       "arch": "amd64",
       "app_version": "32.0.3_4",
       "source": "pkg",
-      "generated": "2026-03-28T16:52:10Z",
+      "generated": "2026-03-29T15:36:18Z",
       "packages": {
         "freebsd": [
           {
