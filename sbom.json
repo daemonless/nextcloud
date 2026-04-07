@@ -1,11 +1,11 @@
 {
-  "generated": "2026-04-05T19:46:47Z",
+  "generated": "2026-04-07T15:00:55Z",
   "image": "nextcloud",
   "tags": {
     "pkg": {
-      "app_version": "32.0.3_4",
+      "app_version": "33.0.1",
       "arch": "amd64",
-      "generated": "2026-04-05T19:43:45Z",
+      "generated": "2026-04-07T14:58:23Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -179,7 +179,7 @@
           },
           {
             "name": "curl",
-            "version": "8.17.0"
+            "version": "8.19.0_1"
           },
           {
             "name": "cyrus-sasl",
@@ -187,7 +187,7 @@
           },
           {
             "name": "dav1d",
-            "version": "1.5.3"
+            "version": "1.5.3_1"
           },
           {
             "name": "dbus",
@@ -203,11 +203,11 @@
           },
           {
             "name": "expat",
-            "version": "2.7.4"
+            "version": "2.7.5"
           },
           {
             "name": "ffmpeg",
-            "version": "8.0.1_1,1"
+            "version": "8.1,1"
           },
           {
             "name": "fftw3",
@@ -219,7 +219,7 @@
           },
           {
             "name": "freetype2",
-            "version": "2.14.1"
+            "version": "2.14.3"
           },
           {
             "name": "fribidi",
@@ -239,11 +239,11 @@
           },
           {
             "name": "gettext-runtime",
-            "version": "0.26"
+            "version": "1.0"
           },
           {
             "name": "ghostscript10",
-            "version": "10.06.0_1"
+            "version": "10.07.0"
           },
           {
             "name": "giflib",
@@ -275,7 +275,7 @@
           },
           {
             "name": "harfbuzz",
-            "version": "12.3.0"
+            "version": "13.2.1"
           },
           {
             "name": "highway",
@@ -283,7 +283,7 @@
           },
           {
             "name": "hwdata",
-            "version": "0.403,1"
+            "version": "0.405,1"
           },
           {
             "name": "icu",
@@ -315,7 +315,7 @@
           },
           {
             "name": "lcms2",
-            "version": "2.17"
+            "version": "2.18"
           },
           {
             "name": "lerc",
@@ -331,11 +331,23 @@
           },
           {
             "name": "libX11",
-            "version": "1.8.12,1"
+            "version": "1.8.13,1"
+          },
+          {
+            "name": "libXScrnSaver",
+            "version": "1.2.4_1"
           },
           {
             "name": "libXau",
             "version": "1.0.12"
+          },
+          {
+            "name": "libXcursor",
+            "version": "1.2.3"
+          },
+          {
+            "name": "libXdamage",
+            "version": "1.1.6"
           },
           {
             "name": "libXdmcp",
@@ -354,6 +366,10 @@
             "version": "2.3.8"
           },
           {
+            "name": "libXi",
+            "version": "1.8.2,1"
+          },
+          {
             "name": "libXrandr",
             "version": "1.5.4"
           },
@@ -370,6 +386,10 @@
             "version": "1.0.13,1"
           },
           {
+            "name": "libXxf86vm",
+            "version": "1.1.6"
+          },
+          {
             "name": "libargon2",
             "version": "20190702_1"
           },
@@ -379,7 +399,7 @@
           },
           {
             "name": "libbluray",
-            "version": "1.4.0,1"
+            "version": "1.4.1,1"
           },
           {
             "name": "libdaemon",
@@ -423,11 +443,11 @@
           },
           {
             "name": "libfontenc",
-            "version": "1.1.8"
+            "version": "1.1.9"
           },
           {
             "name": "libgcrypt",
-            "version": "1.11.2"
+            "version": "1.12.0_1"
           },
           {
             "name": "libgd",
@@ -439,11 +459,11 @@
           },
           {
             "name": "libgpg-error",
-            "version": "1.58"
+            "version": "1.59"
           },
           {
             "name": "libheif",
-            "version": "1.19.8_6"
+            "version": "1.21.2_2"
           },
           {
             "name": "libiconv",
@@ -456,6 +476,10 @@
           {
             "name": "libidn2",
             "version": "2.3.8"
+          },
+          {
+            "name": "libinotify",
+            "version": "20240724_3"
           },
           {
             "name": "libjxl",
@@ -491,7 +515,7 @@
           },
           {
             "name": "libplacebo",
-            "version": "7.351.0_1"
+            "version": "7.360.1"
           },
           {
             "name": "libpsl",
@@ -503,11 +527,11 @@
           },
           {
             "name": "libraw",
-            "version": "0.21.5"
+            "version": "0.21.5_1"
           },
           {
             "name": "librsvg2-rust",
-            "version": "2.61.3"
+            "version": "2.62.0_1"
           },
           {
             "name": "libsodium",
@@ -539,7 +563,7 @@
           },
           {
             "name": "libunistring",
-            "version": "1.4.1"
+            "version": "1.4.2"
           },
           {
             "name": "libunwind",
@@ -563,7 +587,7 @@
           },
           {
             "name": "libvpx",
-            "version": "1.15.2"
+            "version": "1.16.0"
           },
           {
             "name": "libwmf",
@@ -578,8 +602,16 @@
             "version": "1.17.0"
           },
           {
+            "name": "libxkbcommon",
+            "version": "1.13.1"
+          },
+          {
             "name": "libxml2",
             "version": "2.15.2"
+          },
+          {
+            "name": "libxshmfence",
+            "version": "1.3.3"
           },
           {
             "name": "libxslt",
@@ -594,12 +626,16 @@
             "version": "2.10_1"
           },
           {
+            "name": "mesa-libs",
+            "version": "24.1.7_1"
+          },
+          {
             "name": "mkfontscale",
             "version": "1.2.3"
           },
           {
             "name": "mpc",
-            "version": "1.3.1_1"
+            "version": "1.4.0"
           },
           {
             "name": "mpdecimal",
@@ -615,7 +651,7 @@
           },
           {
             "name": "nextcloud-php83",
-            "version": "32.0.3_4"
+            "version": "33.0.1"
           },
           {
             "name": "nginx",
@@ -631,7 +667,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.5"
+            "version": "3.4.8"
           },
           {
             "name": "openh264",
@@ -639,19 +675,19 @@
           },
           {
             "name": "openjpeg",
-            "version": "2.5.4_1"
+            "version": "2.5.4_2"
           },
           {
             "name": "openjph",
-            "version": "0.25.3"
+            "version": "0.26.3"
           },
           {
             "name": "openldap26-client",
-            "version": "2.6.10_1"
+            "version": "2.6.13"
           },
           {
             "name": "opus",
-            "version": "1.6"
+            "version": "1.6.1"
           },
           {
             "name": "p11-kit",
@@ -659,7 +695,7 @@
           },
           {
             "name": "pango",
-            "version": "1.56.4"
+            "version": "1.56.4_1"
           },
           {
             "name": "pcre2",
@@ -671,87 +707,87 @@
           },
           {
             "name": "php83",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-bcmath",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-bz2",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-ctype",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-curl",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-dom",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-exif",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-fileinfo",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-filter",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-gd",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-gmp",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-iconv",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-intl",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-ldap",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-mbstring",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-opcache",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-pcntl",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-pdo",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-pdo_mysql",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-pdo_pgsql",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-pdo_sqlite",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-pecl-APCu",
@@ -767,51 +803,51 @@
           },
           {
             "name": "php83-posix",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-session",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-simplexml",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-sodium",
-            "version": "8.3.29_1"
+            "version": "8.3.30_1"
           },
           {
             "name": "php83-sqlite3",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-sysvsem",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-xml",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-xmlreader",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-xmlwriter",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-xsl",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-zip",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "php83-zlib",
-            "version": "8.3.29"
+            "version": "8.3.30"
           },
           {
             "name": "pixman",
@@ -819,7 +855,7 @@
           },
           {
             "name": "pkg",
-            "version": "2.5.1"
+            "version": "2.6.2_1"
           },
           {
             "name": "pkgconf",
@@ -827,15 +863,15 @@
           },
           {
             "name": "png",
-            "version": "1.6.53"
+            "version": "1.6.55"
           },
           {
             "name": "poppler-data",
             "version": "0.4.12"
           },
           {
-            "name": "postgresql17-client",
-            "version": "17.9"
+            "name": "postgresql18-client",
+            "version": "18.3"
           },
           {
             "name": "py311-boost-libs",
@@ -843,15 +879,15 @@
           },
           {
             "name": "py311-numpy",
-            "version": "1.26.4_11,1"
+            "version": "1.26.4_12,1"
           },
           {
             "name": "py311-packaging",
-            "version": "25.0"
+            "version": "26.0"
           },
           {
             "name": "python311",
-            "version": "3.11.15"
+            "version": "3.11.15_1"
           },
           {
             "name": "readline",
@@ -866,8 +902,12 @@
             "version": "0.5.6.0"
           },
           {
+            "name": "sdl2",
+            "version": "2.32.10"
+          },
+          {
             "name": "shaderc",
-            "version": "2025.5_1"
+            "version": "2026.1"
           },
           {
             "name": "shared-mime-info",
@@ -907,7 +947,7 @@
           },
           {
             "name": "suitesparse-config",
-            "version": "7.12.1"
+            "version": "7.12.2"
           },
           {
             "name": "suitesparse-umfpack",
@@ -915,7 +955,7 @@
           },
           {
             "name": "svt-av1",
-            "version": "3.1.2"
+            "version": "4.1.0"
           },
           {
             "name": "tiff",
@@ -946,6 +986,10 @@
             "version": "4.1"
           },
           {
+            "name": "xkeyboard-config",
+            "version": "2.41_4"
+          },
+          {
             "name": "xorgproto",
             "version": "2024.1"
           },
@@ -967,23 +1011,23 @@
           },
           {
             "name": "activity",
-            "version": "5.0.0-dev.0"
+            "version": "6.0.0-dev.0"
           },
           {
             "name": "files_downloadlimit",
-            "version": "5.0.0-dev.0"
+            "version": "5.1.0-dev.0"
           },
           {
             "name": "files_pdfviewer",
-            "version": "5.0.0-dev.0"
+            "version": "6.0.0-dev.0"
           },
           {
             "name": "firstrunwizard",
-            "version": "5.0.0-dev.0"
+            "version": "6.0.0-dev.0"
           },
           {
             "name": "logreader",
-            "version": "5.0.0-dev.0"
+            "version": "6.0.0"
           },
           {
             "name": "nextcloud",
@@ -991,43 +1035,43 @@
           },
           {
             "name": "notifications",
-            "version": "5.0.0-dev.0"
+            "version": "6.0.0-dev.0"
           },
           {
             "name": "password_policy",
-            "version": "4.0.0-dev.0"
+            "version": "5.0.0-dev.0"
           },
           {
             "name": "photos",
-            "version": "5.0.0-dev.1"
+            "version": "6.0.0-dev.0"
           },
           {
             "name": "privacy",
-            "version": "4.0.0-dev.0"
+            "version": "5.0.0-dev.0"
           },
           {
             "name": "recommendations",
-            "version": "5.0.0-dev.0"
+            "version": "6.0.0-dev.0"
           },
           {
             "name": "support",
-            "version": "4.0.0-dev.0"
+            "version": "5.0.0-dev.0"
           },
           {
             "name": "teams",
-            "version": "32.0.0"
+            "version": "33.0.0-dev.0"
           },
           {
             "name": "text",
-            "version": "6.0.0"
+            "version": "7.0.0-dev.1"
           },
           {
             "name": "twofactor_totp",
-            "version": "14.0.0"
+            "version": "15.0.0-dev.0"
           },
           {
             "name": "viewer",
-            "version": "5.0.0-dev.0"
+            "version": "6.0.0-dev.0"
           }
         ],
         "php": [],
@@ -1042,7 +1086,7 @@
           },
           {
             "name": "packaging",
-            "version": "25.0"
+            "version": "26.0"
           }
         ],
         "ruby": [],
@@ -1051,7 +1095,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 237,
+        "freebsd": 248,
         "go": 0,
         "java": 0,
         "node": 17,
@@ -1059,13 +1103,13 @@
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 257
+        "total": 268
       }
     },
     "pkg-latest": {
       "app_version": "33.0.2",
       "arch": "amd64",
-      "generated": "2026-04-05T19:45:34Z",
+      "generated": "2026-04-07T14:58:12Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
