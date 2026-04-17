@@ -1,11 +1,11 @@
 {
-  "generated": "2026-04-07T15:00:55Z",
+  "generated": "2026-04-17T08:03:46Z",
   "image": "nextcloud",
   "tags": {
     "pkg": {
       "app_version": "33.0.1",
       "arch": "amd64",
-      "generated": "2026-04-07T14:58:23Z",
+      "generated": "2026-04-17T08:01:52Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -143,7 +143,7 @@
           },
           {
             "name": "aom",
-            "version": "3.13.2"
+            "version": "3.13.3"
           },
           {
             "name": "avahi-app",
@@ -303,7 +303,7 @@
           },
           {
             "name": "jpeg-turbo",
-            "version": "3.1.3"
+            "version": "3.1.4.1"
           },
           {
             "name": "jq",
@@ -667,7 +667,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.8"
+            "version": "3.4.9"
           },
           {
             "name": "openh264",
@@ -863,7 +863,7 @@
           },
           {
             "name": "png",
-            "version": "1.6.55"
+            "version": "1.6.57"
           },
           {
             "name": "poppler-data",
@@ -887,7 +887,7 @@
           },
           {
             "name": "python311",
-            "version": "3.11.15_1"
+            "version": "3.11.15_2"
           },
           {
             "name": "readline",
@@ -959,7 +959,7 @@
           },
           {
             "name": "tiff",
-            "version": "4.7.1"
+            "version": "4.7.1_1"
           },
           {
             "name": "urw-base35-fonts",
@@ -1109,7 +1109,7 @@
     "pkg-latest": {
       "app_version": "33.0.2",
       "arch": "amd64",
-      "generated": "2026-04-07T14:58:12Z",
+      "generated": "2026-04-17T08:02:32Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1247,7 +1247,7 @@
           },
           {
             "name": "aom",
-            "version": "3.13.2"
+            "version": "3.13.3"
           },
           {
             "name": "avahi-app",
@@ -1283,7 +1283,7 @@
           },
           {
             "name": "curl",
-            "version": "8.19.0_1"
+            "version": "8.19.0_2"
           },
           {
             "name": "cyrus-sasl",
@@ -1387,7 +1387,7 @@
           },
           {
             "name": "hwdata",
-            "version": "0.405,1"
+            "version": "0.406,1"
           },
           {
             "name": "icu",
@@ -1407,7 +1407,7 @@
           },
           {
             "name": "jpeg-turbo",
-            "version": "3.1.3"
+            "version": "3.1.4.1"
           },
           {
             "name": "jq",
@@ -1423,7 +1423,7 @@
           },
           {
             "name": "lerc",
-            "version": "4.0.0"
+            "version": "4.1.0"
           },
           {
             "name": "libICE",
@@ -1603,7 +1603,7 @@
           },
           {
             "name": "libnghttp2",
-            "version": "1.68.0"
+            "version": "1.68.1"
           },
           {
             "name": "libogg",
@@ -1695,7 +1695,7 @@
           },
           {
             "name": "libwmf",
-            "version": "0.2.13_2"
+            "version": "0.2.14"
           },
           {
             "name": "libx264",
@@ -1711,7 +1711,7 @@
           },
           {
             "name": "libxml2",
-            "version": "2.15.2"
+            "version": "2.15.2_1"
           },
           {
             "name": "libxshmfence",
@@ -1771,7 +1771,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.8"
+            "version": "3.4.9"
           },
           {
             "name": "openh264",
@@ -1943,7 +1943,7 @@
           },
           {
             "name": "php83-xsl",
-            "version": "8.3.30"
+            "version": "8.3.30_1"
           },
           {
             "name": "php83-zip",
@@ -1959,7 +1959,7 @@
           },
           {
             "name": "pkg",
-            "version": "2.6.2_1"
+            "version": "2.7.3"
           },
           {
             "name": "pkgconf",
@@ -1967,7 +1967,7 @@
           },
           {
             "name": "png",
-            "version": "1.6.55"
+            "version": "1.6.57"
           },
           {
             "name": "poppler-data",
@@ -1983,7 +1983,7 @@
           },
           {
             "name": "py311-numpy1",
-            "version": "1.26.4_1"
+            "version": "1.26.4_3"
           },
           {
             "name": "py311-packaging",
@@ -1991,7 +1991,7 @@
           },
           {
             "name": "python311",
-            "version": "3.11.15_1"
+            "version": "3.11.15_2"
           },
           {
             "name": "readline",
@@ -2035,7 +2035,7 @@
           },
           {
             "name": "tiff",
-            "version": "4.7.1"
+            "version": "4.7.1_1"
           },
           {
             "name": "urw-base35-fonts",
@@ -2043,7 +2043,7 @@
           },
           {
             "name": "vmaf",
-            "version": "3.0.0"
+            "version": "3.1.0"
           },
           {
             "name": "vulkan-loader",
