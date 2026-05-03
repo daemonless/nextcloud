@@ -1,11 +1,11 @@
 {
-  "generated": "2026-04-30T12:17:20Z",
+  "generated": "2026-05-03T15:58:59Z",
   "image": "nextcloud",
   "tags": {
     "pkg": {
       "app_version": "33.0.1",
       "arch": "amd64",
-      "generated": "2026-04-30T12:15:11Z",
+      "generated": "2026-05-03T15:57:44Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1103,9 +1103,9 @@
       }
     },
     "pkg-latest": {
-      "app_version": "33.0.2",
+      "app_version": "33.0.3",
       "arch": "amd64",
-      "generated": "2026-04-30T12:16:01Z",
+      "generated": "2026-05-03T15:56:29Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1275,7 +1275,7 @@
           },
           {
             "name": "cups",
-            "version": "2.4.18"
+            "version": "2.4.19"
           },
           {
             "name": "curl",
@@ -1363,7 +1363,7 @@
           },
           {
             "name": "gnutls",
-            "version": "3.8.12"
+            "version": "3.8.13"
           },
           {
             "name": "graphite2",
@@ -1479,7 +1479,7 @@
           },
           {
             "name": "libXt",
-            "version": "1.3.0,1"
+            "version": "1.3.1,1"
           },
           {
             "name": "libXv",
@@ -1487,7 +1487,7 @@
           },
           {
             "name": "libXxf86vm",
-            "version": "1.1.6"
+            "version": "1.1.7"
           },
           {
             "name": "libargon2",
@@ -1607,7 +1607,7 @@
           },
           {
             "name": "libpciaccess",
-            "version": "0.18.1_1"
+            "version": "0.19"
           },
           {
             "name": "libplacebo",
@@ -1747,7 +1747,7 @@
           },
           {
             "name": "nextcloud-php83",
-            "version": "33.0.2"
+            "version": "33.0.3"
           },
           {
             "name": "nginx",
@@ -1763,7 +1763,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.10_1"
+            "version": "3.4.11"
           },
           {
             "name": "openh264",
@@ -1951,7 +1951,7 @@
           },
           {
             "name": "pkg",
-            "version": "2.7.4"
+            "version": "2.7.5"
           },
           {
             "name": "pkgconf",
@@ -1979,7 +1979,7 @@
           },
           {
             "name": "py311-packaging",
-            "version": "26.1"
+            "version": "26.2"
           },
           {
             "name": "python311",
@@ -1999,7 +1999,7 @@
           },
           {
             "name": "shaderc",
-            "version": "2026.1"
+            "version": "2026.2"
           },
           {
             "name": "shared-mime-info",
@@ -2035,7 +2035,7 @@
           },
           {
             "name": "vulkan-loader",
-            "version": "1.4.336"
+            "version": "1.4.349"
           },
           {
             "name": "wayland",
@@ -2150,7 +2150,7 @@
           },
           {
             "name": "packaging",
-            "version": "26.1"
+            "version": "26.2"
           }
         ],
         "ruby": [],
