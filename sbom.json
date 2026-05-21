@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-18T12:51:27Z",
+  "generated": "2026-05-21T07:56:36Z",
   "image": "nextcloud",
   "tags": {
     "pkg": {
       "app_version": "33.0.1",
       "arch": "amd64",
-      "generated": "2026-05-18T12:50:08Z",
+      "generated": "2026-05-21T07:55:25Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -59,6 +59,10 @@
           },
           {
             "name": "FreeBSD-libcasper",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-libcompiler_rt-dev",
             "version": "15.0"
           },
           {
@@ -167,7 +171,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.117_2"
+            "version": "3.123.1"
           },
           {
             "name": "cairo",
@@ -655,7 +659,7 @@
           },
           {
             "name": "nginx",
-            "version": "1.28.3,3"
+            "version": "1.30.1,3"
           },
           {
             "name": "oniguruma",
@@ -1091,7 +1095,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 247,
+        "freebsd": 248,
         "go": 0,
         "java": 0,
         "node": 17,
@@ -1099,13 +1103,13 @@
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 267
+        "total": 268
       }
     },
     "pkg-latest": {
       "app_version": "33.0.3",
       "arch": "amd64",
-      "generated": "2026-05-18T12:49:25Z",
+      "generated": "2026-05-21T07:54:33Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1159,6 +1163,10 @@
           },
           {
             "name": "FreeBSD-libcasper",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-libcompiler_rt-dev",
             "version": "15.0"
           },
           {
@@ -1267,7 +1275,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.117_2"
+            "version": "3.123.1"
           },
           {
             "name": "cairo",
@@ -1751,7 +1759,7 @@
           },
           {
             "name": "nginx",
-            "version": "1.30.0,3"
+            "version": "1.30.1_1,3"
           },
           {
             "name": "oniguruma",
@@ -2199,7 +2207,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 239,
+        "freebsd": 240,
         "go": 0,
         "java": 0,
         "node": 27,
@@ -2207,7 +2215,7 @@
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 269
+        "total": 270
       }
     }
   }
