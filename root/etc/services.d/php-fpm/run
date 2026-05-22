@@ -4,6 +4,11 @@
 mkdir -p /run/php
 chown bsd:bsd /run/php
 
+# FreeBSD 14 compat: setgroups@@FBSD_1.8 doesn't exist on 14.x, preload shim
+if [ "$(uname -r | cut -d. -f1)" -lt 15 ] 2>/dev/null; then
+    export LD_PRELOAD=/usr/local/lib/libfbsd14compat.so
+fi
+
 # Signal readiness when the port is responsive
 s6-ready-when fetch -qo /dev/null http://localhost:8082/
 
