@@ -59,7 +59,13 @@ EOFCONFIG
     echo "Created initial config.php with datadirectory=/data"
 fi
 
-# Set ownership
+# Copy nginx config if not exists
+if [ ! -f /config/nginx.conf ]; then
+    cp /defaults/nginx.conf /config/nginx.conf
+fi
+ln -sf /config/nginx.conf /usr/local/etc/nginx/nginx.conf
+
+# Set ownership (after all /config files are in place)
 chown -R bsd:bsd /config /data /var/log/nextcloud /var/run/php-fpm
 chown -h bsd:bsd "$NEXTCLOUD_DIR/config" 2>/dev/null || true
 # Ensure apps directory is writable
@@ -126,12 +132,6 @@ apc.enable_cli = 1
 date.timezone = UTC
 EOFINI
 fi
-
-# Copy nginx config if not exists
-if [ ! -f /config/nginx.conf ]; then
-    cp /defaults/nginx.conf /config/nginx.conf
-fi
-ln -sf /config/nginx.conf /usr/local/etc/nginx/nginx.conf
 
 echo "Nextcloud initialization complete"
 echo "Access at http://<host>/ to run the setup wizard"
