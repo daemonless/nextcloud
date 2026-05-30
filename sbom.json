@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-22T07:42:32Z",
+  "generated": "2026-05-30T17:50:01Z",
   "image": "nextcloud",
   "tags": {
     "pkg": {
       "app_version": "33.0.1",
       "arch": "amd64",
-      "generated": "2026-05-22T07:41:24Z",
+      "generated": "2026-05-30T17:48:46Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -875,7 +875,7 @@
           },
           {
             "name": "postgresql18-client",
-            "version": "18.3"
+            "version": "18.4"
           },
           {
             "name": "py311-boost-libs",
@@ -1107,9 +1107,9 @@
       }
     },
     "pkg-latest": {
-      "app_version": "33.0.3",
+      "app_version": "33.0.4",
       "arch": "amd64",
-      "generated": "2026-05-22T07:40:15Z",
+      "generated": "2026-05-30T17:46:56Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1243,7 +1243,7 @@
           },
           {
             "name": "ImageMagick7",
-            "version": "7.1.2.16"
+            "version": "7.1.2.23"
           },
           {
             "name": "Imath",
@@ -1351,7 +1351,7 @@
           },
           {
             "name": "ghostscript10",
-            "version": "10.07.0_1"
+            "version": "10.07.1"
           },
           {
             "name": "giflib",
@@ -1475,7 +1475,7 @@
           },
           {
             "name": "libXi",
-            "version": "1.8.2,1"
+            "version": "1.8.3,1"
           },
           {
             "name": "libXrandr",
@@ -1503,7 +1503,7 @@
           },
           {
             "name": "libass",
-            "version": "0.17.4"
+            "version": "0.17.4_1"
           },
           {
             "name": "libbluray",
@@ -1755,7 +1755,7 @@
           },
           {
             "name": "nextcloud-php83",
-            "version": "33.0.3"
+            "version": "33.0.4"
           },
           {
             "name": "nginx",
@@ -1771,7 +1771,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.11"
+            "version": "3.4.12"
           },
           {
             "name": "openh264",
@@ -1783,7 +1783,7 @@
           },
           {
             "name": "openjph",
-            "version": "0.27.2"
+            "version": "0.27.3"
           },
           {
             "name": "openldap26-client",
@@ -1983,7 +1983,7 @@
           },
           {
             "name": "py311-numpy",
-            "version": "2.4.4_3,1"
+            "version": "2.4.6,1"
           },
           {
             "name": "py311-packaging",
@@ -2019,7 +2019,7 @@
           },
           {
             "name": "sqlite3",
-            "version": "3.50.4_2,1"
+            "version": "3.53.1,1"
           },
           {
             "name": "srt",
@@ -2071,7 +2071,7 @@
           },
           {
             "name": "zstd",
-            "version": "1.5.7_1"
+            "version": "1.5.7_2"
           }
         ],
         "go": [],
@@ -2178,10 +2178,6 @@
             "version": "7.0.0-dev.1"
           },
           {
-            "name": "twofactor_totp",
-            "version": "15.0.0-dev.0"
-          },
-          {
             "name": "viewer",
             "version": "6.0.0-dev.0"
           }
@@ -2194,7 +2190,7 @@
           },
           {
             "name": "numpy",
-            "version": "2.4.4"
+            "version": "2.4.6"
           },
           {
             "name": "packaging",
@@ -2210,12 +2206,12 @@
         "freebsd": 240,
         "go": 0,
         "java": 0,
-        "node": 27,
+        "node": 26,
         "php": 0,
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 270
+        "total": 269
       }
     }
   }
