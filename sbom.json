@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-30T17:50:01Z",
+  "generated": "2026-06-04T16:39:30Z",
   "image": "nextcloud",
   "tags": {
     "pkg": {
       "app_version": "33.0.1",
       "arch": "amd64",
-      "generated": "2026-05-30T17:48:46Z",
+      "generated": "2026-06-04T16:38:13Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -59,7 +59,7 @@
           },
           {
             "name": "FreeBSD-libcasper",
-            "version": "15.0"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-libcompiler_rt-dev",
@@ -107,7 +107,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p8"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -119,7 +119,7 @@
           },
           {
             "name": "FreeBSD-utilities",
-            "version": "15.0p1"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-xz-lib",
@@ -171,7 +171,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.123.1"
+            "version": "3.124"
           },
           {
             "name": "cairo",
@@ -659,7 +659,7 @@
           },
           {
             "name": "nginx",
-            "version": "1.30.1,3"
+            "version": "1.30.2,3"
           },
           {
             "name": "oniguruma",
@@ -671,7 +671,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.11"
+            "version": "3.4.12"
           },
           {
             "name": "openh264",
@@ -1107,9 +1107,9 @@
       }
     },
     "pkg-latest": {
-      "app_version": "33.0.4",
+      "app_version": "33.0.5",
       "arch": "amd64",
-      "generated": "2026-05-30T17:46:56Z",
+      "generated": "2026-06-04T16:37:56Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1163,7 +1163,7 @@
           },
           {
             "name": "FreeBSD-libcasper",
-            "version": "15.0"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-libcompiler_rt-dev",
@@ -1211,7 +1211,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p8"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -1223,7 +1223,7 @@
           },
           {
             "name": "FreeBSD-utilities",
-            "version": "15.0p1"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-xz-lib",
@@ -1243,7 +1243,7 @@
           },
           {
             "name": "ImageMagick7",
-            "version": "7.1.2.23"
+            "version": "7.1.2.24"
           },
           {
             "name": "Imath",
@@ -1259,7 +1259,7 @@
           },
           {
             "name": "bash",
-            "version": "5.3.9"
+            "version": "5.3.12"
           },
           {
             "name": "binutils",
@@ -1275,7 +1275,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.123.1"
+            "version": "3.124"
           },
           {
             "name": "cairo",
@@ -1571,7 +1571,7 @@
           },
           {
             "name": "libheif",
-            "version": "1.21.2_3"
+            "version": "1.22.2"
           },
           {
             "name": "libiconv",
@@ -1635,11 +1635,11 @@
           },
           {
             "name": "librsvg2-rust",
-            "version": "2.62.0_2"
+            "version": "2.62.2"
           },
           {
             "name": "libsodium",
-            "version": "1.0.21"
+            "version": "1.0.22"
           },
           {
             "name": "libssh2",
@@ -1755,11 +1755,11 @@
           },
           {
             "name": "nextcloud-php83",
-            "version": "33.0.4"
+            "version": "33.0.5"
           },
           {
             "name": "nginx",
-            "version": "1.30.1_1,3"
+            "version": "1.30.2_2,3"
           },
           {
             "name": "oniguruma",
@@ -1919,7 +1919,7 @@
           },
           {
             "name": "php83-sodium",
-            "version": "8.3.31"
+            "version": "8.3.31_1"
           },
           {
             "name": "php83-sqlite3",
@@ -2007,7 +2007,7 @@
           },
           {
             "name": "shaderc",
-            "version": "2026.2"
+            "version": "2026.2_1"
           },
           {
             "name": "shared-mime-info",
@@ -2023,7 +2023,7 @@
           },
           {
             "name": "srt",
-            "version": "1.5.4"
+            "version": "1.5.5"
           },
           {
             "name": "svt-av1",
