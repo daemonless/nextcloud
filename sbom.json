@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-15T07:56:36Z",
+  "generated": "2026-06-24T13:33:53Z",
   "image": "nextcloud",
   "tags": {
     "pkg": {
       "app_version": "33.0.1",
       "arch": "amd64",
-      "generated": "2026-06-15T07:54:39Z",
+      "generated": "2026-06-24T13:28:33Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -139,7 +139,7 @@
           },
           {
             "name": "ImageMagick7",
-            "version": "7.1.2.16"
+            "version": "7.1.2.25"
           },
           {
             "name": "Imath",
@@ -147,7 +147,7 @@
           },
           {
             "name": "aom",
-            "version": "3.13.3"
+            "version": "3.14.1"
           },
           {
             "name": "avahi-app",
@@ -659,7 +659,7 @@
           },
           {
             "name": "nginx",
-            "version": "1.30.2,3"
+            "version": "1.30.3,3"
           },
           {
             "name": "oniguruma",
@@ -671,7 +671,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.12"
+            "version": "3.4.13"
           },
           {
             "name": "openh264",
@@ -711,87 +711,87 @@
           },
           {
             "name": "php83",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-bcmath",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-bz2",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-ctype",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-curl",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-dom",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-exif",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-fileinfo",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-filter",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-gd",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-gmp",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-iconv",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-intl",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-ldap",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-mbstring",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-opcache",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-pcntl",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-pdo",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-pdo_mysql",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-pdo_pgsql",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-pdo_sqlite",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-pecl-APCu",
@@ -799,7 +799,7 @@
           },
           {
             "name": "php83-pecl-imagick",
-            "version": "3.8.0_1"
+            "version": "3.8.0_2"
           },
           {
             "name": "php83-pecl-redis",
@@ -807,51 +807,51 @@
           },
           {
             "name": "php83-posix",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-session",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-simplexml",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-sodium",
-            "version": "8.3.30_1"
+            "version": "8.3.31"
           },
           {
             "name": "php83-sqlite3",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-sysvsem",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-xml",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-xmlreader",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-xmlwriter",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-xsl",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-zip",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "php83-zlib",
-            "version": "8.3.30"
+            "version": "8.3.31"
           },
           {
             "name": "pixman",
@@ -891,7 +891,7 @@
           },
           {
             "name": "python311",
-            "version": "3.11.15_2"
+            "version": "3.11.15_4"
           },
           {
             "name": "readline",
@@ -1109,7 +1109,7 @@
     "pkg-latest": {
       "app_version": "33.0.5",
       "arch": "amd64",
-      "generated": "2026-06-15T07:55:21Z",
+      "generated": "2026-06-24T13:32:38Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1251,7 +1251,7 @@
           },
           {
             "name": "aom",
-            "version": "3.14.0"
+            "version": "3.14.1"
           },
           {
             "name": "avahi-app",
@@ -1315,7 +1315,7 @@
           },
           {
             "name": "ffmpeg",
-            "version": "8.1.1,1"
+            "version": "8.1.2,1"
           },
           {
             "name": "fftw3",
@@ -1383,7 +1383,7 @@
           },
           {
             "name": "harfbuzz",
-            "version": "13.2.1"
+            "version": "14.2.1"
           },
           {
             "name": "highway",
@@ -1391,7 +1391,7 @@
           },
           {
             "name": "hwdata",
-            "version": "0.407,1"
+            "version": "0.408,1"
           },
           {
             "name": "icu",
@@ -1522,6 +1522,10 @@
             "version": "1.25"
           },
           {
+            "name": "libdisplay-info",
+            "version": "0.3.0"
+          },
+          {
             "name": "libdrm",
             "version": "2.4.133,1"
           },
@@ -1635,7 +1639,7 @@
           },
           {
             "name": "librsvg2-rust",
-            "version": "2.62.2_1"
+            "version": "2.62.3"
           },
           {
             "name": "libsodium",
@@ -1726,12 +1730,20 @@
             "version": "1.11.4"
           },
           {
+            "name": "llvm19",
+            "version": "19.1.7_3"
+          },
+          {
+            "name": "lua53",
+            "version": "5.3.6_1"
+          },
+          {
             "name": "lzo2",
             "version": "2.10_2"
           },
           {
             "name": "mesa-libs",
-            "version": "24.1.7_1"
+            "version": "26.0.6"
           },
           {
             "name": "mkfontscale",
@@ -1759,7 +1771,7 @@
           },
           {
             "name": "nginx",
-            "version": "1.30.2_2,3"
+            "version": "1.30.3,3"
           },
           {
             "name": "oniguruma",
@@ -1771,7 +1783,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.12"
+            "version": "3.4.13"
           },
           {
             "name": "openh264",
@@ -1799,7 +1811,7 @@
           },
           {
             "name": "pango",
-            "version": "1.56.4_1"
+            "version": "1.57.1"
           },
           {
             "name": "pcre2",
@@ -1991,7 +2003,7 @@
           },
           {
             "name": "python311",
-            "version": "3.11.15_2"
+            "version": "3.11.15_4"
           },
           {
             "name": "readline",
@@ -2016,6 +2028,14 @@
           {
             "name": "skalibs",
             "version": "2.14.5.1"
+          },
+          {
+            "name": "spirv-llvm-translator-llvm19",
+            "version": "19.1.19"
+          },
+          {
+            "name": "spirv-tools",
+            "version": "2026.2"
           },
           {
             "name": "sqlite3",
@@ -2203,7 +2223,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 240,
+        "freebsd": 245,
         "go": 0,
         "java": 0,
         "node": 26,
@@ -2211,7 +2231,7 @@
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 269
+        "total": 274
       }
     }
   }
