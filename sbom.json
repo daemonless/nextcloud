@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-28T20:20:27Z",
+  "generated": "2026-07-02T10:15:51Z",
   "image": "nextcloud",
   "tags": {
     "pkg": {
       "app_version": "33.0.1",
       "arch": "amd64",
-      "generated": "2026-06-28T20:18:45Z",
+      "generated": "2026-07-02T10:12:09Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -31,7 +31,7 @@
           },
           {
             "name": "FreeBSD-clibs-lib32",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-ctf-lib",
@@ -191,7 +191,7 @@
           },
           {
             "name": "curl",
-            "version": "8.20.0"
+            "version": "8.21.0"
           },
           {
             "name": "cyrus-sasl",
@@ -1115,9 +1115,9 @@
       }
     },
     "pkg-latest": {
-      "app_version": "34.0.1",
+      "app_version": "34.0.1_1",
       "arch": "amd64",
-      "generated": "2026-06-28T20:19:15Z",
+      "generated": "2026-07-02T10:14:38Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1143,7 +1143,7 @@
           },
           {
             "name": "FreeBSD-clibs-lib32",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-ctf-lib",
@@ -1303,7 +1303,7 @@
           },
           {
             "name": "curl",
-            "version": "8.20.0"
+            "version": "8.21.0"
           },
           {
             "name": "cyrus-sasl",
@@ -1327,7 +1327,7 @@
           },
           {
             "name": "expat",
-            "version": "2.8.1"
+            "version": "2.8.2"
           },
           {
             "name": "ffmpeg",
@@ -1643,7 +1643,7 @@
           },
           {
             "name": "libpsl",
-            "version": "0.21.5_2"
+            "version": "0.22.0"
           },
           {
             "name": "libraqm",
@@ -1783,7 +1783,7 @@
           },
           {
             "name": "nextcloud-php83",
-            "version": "34.0.1"
+            "version": "34.0.1_1"
           },
           {
             "name": "nginx",
