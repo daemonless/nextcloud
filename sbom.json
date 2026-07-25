@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-12T20:45:16Z",
+  "generated": "2026-07-25T00:14:46Z",
   "image": "nextcloud",
   "tags": {
     "pkg": {
       "app_version": "34.0.1_1",
       "arch": "amd64",
-      "generated": "2026-07-12T20:44:01Z",
+      "generated": "2026-07-25T00:13:22Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -79,6 +79,10 @@
           },
           {
             "name": "FreeBSD-libucl",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-locales",
             "version": "15.1"
           },
           {
@@ -179,7 +183,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.124"
+            "version": "3.125"
           },
           {
             "name": "cairo",
@@ -319,7 +323,7 @@
           },
           {
             "name": "jq",
-            "version": "1.8.1"
+            "version": "1.8.2"
           },
           {
             "name": "lame",
@@ -675,7 +679,7 @@
           },
           {
             "name": "nginx",
-            "version": "1.30.3,3"
+            "version": "1.30.3_2,3"
           },
           {
             "name": "oniguruma",
@@ -1127,7 +1131,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 247,
+        "freebsd": 248,
         "go": 0,
         "java": 0,
         "node": 26,
@@ -1135,13 +1139,13 @@
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 276
+        "total": 277
       }
     },
     "pkg-latest": {
       "app_version": "34.0.1_1",
       "arch": "amd64",
-      "generated": "2026-07-12T20:35:19Z",
+      "generated": "2026-07-25T00:13:34Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1218,6 +1222,10 @@
             "version": "15.1"
           },
           {
+            "name": "FreeBSD-locales",
+            "version": "15.1"
+          },
+          {
             "name": "FreeBSD-mtree",
             "version": "15.1"
           },
@@ -1283,7 +1291,7 @@
           },
           {
             "name": "ImageMagick7",
-            "version": "7.1.2.25_1"
+            "version": "7.1.2.25_2"
           },
           {
             "name": "Imath",
@@ -1307,7 +1315,7 @@
           },
           {
             "name": "boost-libs",
-            "version": "1.89.0_2"
+            "version": "1.89.0_3"
           },
           {
             "name": "brotli",
@@ -1315,7 +1323,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.124"
+            "version": "3.125"
           },
           {
             "name": "cairo",
@@ -1459,7 +1467,7 @@
           },
           {
             "name": "lame",
-            "version": "3.101_1"
+            "version": "4.0"
           },
           {
             "name": "lcms2",
@@ -1467,7 +1475,7 @@
           },
           {
             "name": "lerc",
-            "version": "4.1.0"
+            "version": "4.1.1"
           },
           {
             "name": "libICE",
@@ -1483,7 +1491,7 @@
           },
           {
             "name": "libXScrnSaver",
-            "version": "1.2.4_1"
+            "version": "1.2.5"
           },
           {
             "name": "libXau",
@@ -1507,7 +1515,7 @@
           },
           {
             "name": "libXfixes",
-            "version": "6.0.1"
+            "version": "6.0.2"
           },
           {
             "name": "libXft",
@@ -1591,7 +1599,7 @@
           },
           {
             "name": "libffi",
-            "version": "3.6.0"
+            "version": "3.7.1"
           },
           {
             "name": "libfontenc",
@@ -1675,7 +1683,7 @@
           },
           {
             "name": "libraw",
-            "version": "0.21.5_1"
+            "version": "0.22.1"
           },
           {
             "name": "librsvg2-rust",
@@ -1783,7 +1791,7 @@
           },
           {
             "name": "mesa-libs",
-            "version": "26.1.4"
+            "version": "26.1.5"
           },
           {
             "name": "mkfontscale",
@@ -1815,7 +1823,7 @@
           },
           {
             "name": "nginx",
-            "version": "1.30.3_1,3"
+            "version": "1.30.3_2,3"
           },
           {
             "name": "oniguruma",
@@ -1851,7 +1859,7 @@
           },
           {
             "name": "p11-kit",
-            "version": "0.26.2"
+            "version": "0.26.4"
           },
           {
             "name": "pango",
@@ -1955,7 +1963,7 @@
           },
           {
             "name": "php83-pecl-imagick",
-            "version": "3.8.0_2"
+            "version": "3.8.1"
           },
           {
             "name": "php83-pecl-redis",
@@ -2015,7 +2023,7 @@
           },
           {
             "name": "pkg",
-            "version": "2.7.5"
+            "version": "2.8.0_1"
           },
           {
             "name": "pkgconf",
@@ -2095,7 +2103,7 @@
           },
           {
             "name": "tiff",
-            "version": "4.7.1_1"
+            "version": "4.7.2"
           },
           {
             "name": "urw-base35-fonts",
@@ -2267,7 +2275,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 248,
+        "freebsd": 249,
         "go": 0,
         "java": 0,
         "node": 26,
@@ -2275,7 +2283,7 @@
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 277
+        "total": 278
       }
     }
   }
