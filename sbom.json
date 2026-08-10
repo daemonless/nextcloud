@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-01T19:51:10Z",
+  "generated": "2026-08-10T10:21:19Z",
   "image": "nextcloud",
   "tags": {
     "pkg": {
       "app_version": "34.0.1_1",
       "arch": "amd64",
-      "generated": "2026-08-01T19:40:23Z",
+      "generated": "2026-08-10T10:15:28Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1297,154 +1297,154 @@
               "GPLv1+"
             ],
             "name": "perl5",
-            "version": "5.42.2"
+            "version": "5.42.3"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-bcmath",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-bz2",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-ctype",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-curl",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-dom",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-exif",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-fileinfo",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-filter",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-gd",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-gmp",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-iconv",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-intl",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-ldap",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-mbstring",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-opcache",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-pcntl",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-pdo",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-pdo_mysql",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-pdo_pgsql",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-pdo_sqlite",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
@@ -1472,84 +1472,84 @@
               "PHP301"
             ],
             "name": "php83-posix",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-session",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-simplexml",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-sodium",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-sqlite3",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-sysvsem",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-xml",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-xmlreader",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-xmlwriter",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-xsl",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-zip",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-zlib",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
@@ -1954,7 +1954,7 @@
     "pkg-latest": {
       "app_version": "34.0.2",
       "arch": "amd64",
-      "generated": "2026-08-01T19:40:02Z",
+      "generated": "2026-08-10T10:16:36Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2281,7 +2281,7 @@
               "CUPS"
             ],
             "name": "cups",
-            "version": "2.4.19_1"
+            "version": "2.4.19_2"
           },
           {
             "licenses": [
@@ -2418,7 +2418,7 @@
               "LGPL20"
             ],
             "name": "glib",
-            "version": "2.86.4,2"
+            "version": "2.88.3,2"
           },
           {
             "licenses": [
@@ -2478,7 +2478,7 @@
               "GPLv2+"
             ],
             "name": "hwdata",
-            "version": "0.409,1"
+            "version": "0.410,1"
           },
           {
             "licenses": [
@@ -2620,7 +2620,7 @@
               "MIT"
             ],
             "name": "libXft",
-            "version": "2.3.8"
+            "version": "2.3.9"
           },
           {
             "licenses": [
@@ -2718,7 +2718,7 @@
               "MIT"
             ],
             "name": "libdrm",
-            "version": "2.4.133,1"
+            "version": "2.4.134,1"
           },
           {
             "licenses": [
@@ -2913,7 +2913,7 @@
               "CDDL"
             ],
             "name": "libraw",
-            "version": "0.22.1"
+            "version": "0.22.2"
           },
           {
             "licenses": [
@@ -2956,7 +2956,7 @@
               "BSD2CLAUSE"
             ],
             "name": "libudev-devd",
-            "version": "0.6.0"
+            "version": "0.7.0"
           },
           {
             "licenses": [
@@ -3111,7 +3111,7 @@
               "MIT"
             ],
             "name": "mesa-libs",
-            "version": "26.1.5_1"
+            "version": "26.1.5_2"
           },
           {
             "licenses": [
@@ -3146,7 +3146,7 @@
               "LGPL21"
             ],
             "name": "mpg123",
-            "version": "1.33.6"
+            "version": "1.33.7"
           },
           {
             "licenses": [
@@ -3168,7 +3168,7 @@
               "BSD2CLAUSE"
             ],
             "name": "nginx",
-            "version": "1.30.4,3"
+            "version": "1.30.4_2,3"
           },
           {
             "licenses": [
@@ -3231,7 +3231,7 @@
               "BSD3CLAUSE"
             ],
             "name": "p11-kit",
-            "version": "0.26.4"
+            "version": "0.26.5"
           },
           {
             "licenses": [
@@ -3253,154 +3253,154 @@
               "GPLv1+"
             ],
             "name": "perl5",
-            "version": "5.42.2"
+            "version": "5.42.3"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-bcmath",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-bz2",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-ctype",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-curl",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-dom",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-exif",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-fileinfo",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-filter",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-gd",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-gmp",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-iconv",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-intl",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-ldap",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-mbstring",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-opcache",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-pcntl",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-pdo",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-pdo_mysql",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-pdo_pgsql",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-pdo_sqlite",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
@@ -3428,91 +3428,91 @@
               "PHP301"
             ],
             "name": "php83-pgsql",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-posix",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-session",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-simplexml",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-sodium",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-sqlite3",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-sysvsem",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-xml",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-xmlreader",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-xmlwriter",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-xsl",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-zip",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
               "PHP301"
             ],
             "name": "php83-zlib",
-            "version": "8.3.32_1"
+            "version": "8.3.33"
           },
           {
             "licenses": [
@@ -3613,7 +3613,7 @@
               "APACHE20"
             ],
             "name": "shaderc",
-            "version": "2026.2_1"
+            "version": "2026.3"
           },
           {
             "licenses": [
@@ -3634,14 +3634,14 @@
               "NCSA"
             ],
             "name": "spirv-llvm-translator-llvm19",
-            "version": "19.1.20"
+            "version": "19.1.21"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "spirv-tools",
-            "version": "2026.2"
+            "version": "2026.3.r1"
           },
           {
             "licenses": [
@@ -3692,7 +3692,7 @@
               "APACHE20"
             ],
             "name": "vulkan-loader",
-            "version": "1.4.356"
+            "version": "1.4.357"
           },
           {
             "licenses": [
