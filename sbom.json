@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-18T07:56:11Z",
+  "generated": "2026-09-03T23:07:21Z",
   "image": "nextcloud",
   "tags": {
     "pkg": {
       "app_version": "34.0.1_1",
       "arch": "amd64",
-      "generated": "2026-08-18T07:52:21Z",
+      "generated": "2026-09-03T23:04:24Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -168,7 +168,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -196,7 +196,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -316,7 +316,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.125"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -871,7 +871,7 @@
               "LGPL3+"
             ],
             "name": "libidn",
-            "version": "1.43"
+            "version": "1.44"
           },
           {
             "licenses": [
@@ -1233,7 +1233,7 @@
               "BSD3CLAUSE"
             ],
             "name": "openexr",
-            "version": "3.4.14"
+            "version": "3.4.15"
           },
           {
             "licenses": [
@@ -1593,7 +1593,7 @@
               "PostgreSQL"
             ],
             "name": "postgresql18-client",
-            "version": "18.4"
+            "version": "18.6"
           },
           {
             "licenses": [
@@ -1622,7 +1622,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.13_4"
+            "version": "3.12.14"
           },
           {
             "licenses": [
@@ -1954,7 +1954,7 @@
     "pkg-latest": {
       "app_version": "34.0.3",
       "arch": "amd64",
-      "generated": "2026-08-18T07:50:57Z",
+      "generated": "2026-09-03T23:04:47Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2117,7 +2117,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -2145,7 +2145,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -2215,14 +2215,14 @@
               "BSD3CLAUSE"
             ],
             "name": "Imath",
-            "version": "3.2.2_4"
+            "version": "3.2.3"
           },
           {
             "licenses": [
               "BSD2CLAUSE"
             ],
             "name": "aom",
-            "version": "3.14.1_1"
+            "version": "3.15.0"
           },
           {
             "licenses": [
@@ -2265,7 +2265,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.125"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -2330,7 +2330,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.2"
+            "version": "2.8.3"
           },
           {
             "licenses": [
@@ -2338,7 +2338,7 @@
               "LGPL3+"
             ],
             "name": "ffmpeg",
-            "version": "8.1.2_2,1"
+            "version": "8.1.2_3,1"
           },
           {
             "licenses": [
@@ -2683,7 +2683,7 @@
               "LGPL21"
             ],
             "name": "libbluray",
-            "version": "1.4.1,1"
+            "version": "1.5.0,1"
           },
           {
             "licenses": [
@@ -2732,7 +2732,7 @@
               "GPLv2"
             ],
             "name": "libdvdread",
-            "version": "7.0.0"
+            "version": "7.1.1"
           },
           {
             "licenses": [
@@ -2760,7 +2760,7 @@
               "MIT"
             ],
             "name": "libffi",
-            "version": "3.7.1"
+            "version": "3.8.0"
           },
           {
             "licenses": [
@@ -2820,7 +2820,7 @@
               "LGPL3+"
             ],
             "name": "libidn",
-            "version": "1.43"
+            "version": "1.44"
           },
           {
             "licenses": [
@@ -2863,7 +2863,7 @@
               "MIT"
             ],
             "name": "libnghttp2",
-            "version": "1.69.0"
+            "version": "1.70.0"
           },
           {
             "licenses": [
@@ -2898,7 +2898,7 @@
               "MIT"
             ],
             "name": "libpsl",
-            "version": "0.22.0"
+            "version": "0.23.3"
           },
           {
             "licenses": [
@@ -3022,7 +3022,7 @@
               "BSD3CLAUSE"
             ],
             "name": "libvpx",
-            "version": "1.16.0"
+            "version": "1.17.0"
           },
           {
             "licenses": [
@@ -3111,7 +3111,7 @@
               "MIT"
             ],
             "name": "mesa-libs",
-            "version": "26.1.7"
+            "version": "26.2.1"
           },
           {
             "licenses": [
@@ -3168,7 +3168,7 @@
               "BSD2CLAUSE"
             ],
             "name": "nginx",
-            "version": "1.30.4_2,3"
+            "version": "1.30.4_5,3"
           },
           {
             "licenses": [
@@ -3189,7 +3189,7 @@
               "BSD3CLAUSE"
             ],
             "name": "openexr",
-            "version": "3.4.14"
+            "version": "3.4.15"
           },
           {
             "licenses": [
@@ -3556,7 +3556,7 @@
               "PostgreSQL"
             ],
             "name": "postgresql18-client",
-            "version": "18.4"
+            "version": "18.6"
           },
           {
             "licenses": [
@@ -3648,7 +3648,7 @@
               "PD"
             ],
             "name": "sqlite3",
-            "version": "3.53.3,1"
+            "version": "3.53.4,1"
           },
           {
             "licenses": [
@@ -3692,14 +3692,14 @@
               "APACHE20"
             ],
             "name": "vulkan-loader",
-            "version": "1.4.357"
+            "version": "1.4.360"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "wayland",
-            "version": "1.25.0"
+            "version": "1.26.0"
           },
           {
             "licenses": [
