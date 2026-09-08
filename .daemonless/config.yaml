@@ -4,7 +4,7 @@ cit:
   port: 8082
   wait: 60
 build:
-  pkg_name: nextcloud-php83
+  pkg_name: nextcloud-php85
   variants:
     - tag: pkg
       containerfile: Containerfile.pkg
