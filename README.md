@@ -43,7 +43,7 @@ services:
       - "/path/to/containers/nextcloud:/config"
       - "/path/to/containers/nextcloud/data:/data"
     ports:
-      - "8082:80"
+      - "8082:8082"
     # always (not unless-stopped) so FreeBSD's podman rc.d auto-starts it at boot
     restart: always
 ```
@@ -185,7 +185,7 @@ bastille create -O \
       PGID: "1000"
       TZ: "UTC"
     ports:
-      - "8082:80"
+      - "8082:8082"
     volumes:
       - "/path/to/containers/nextcloud:/config"
       - "/path/to/containers/nextcloud/data:/data"
@@ -216,7 +216,7 @@ Access at: `http://localhost:8082`
 
 | Port | Protocol | Description |
 |------|----------|-------------|
-| `80` | TCP | Web UI |
+| `8082` | TCP | Web UI |
 
 **Architectures:** amd64
 **User:** `bsd` (UID/GID via PUID/PGID, defaults to 1000:1000)
