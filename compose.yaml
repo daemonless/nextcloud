@@ -22,7 +22,7 @@ x-daemonless:
       /config: "Configuration and application files"
       /data: "User data storage"
     ports:
-      80: "Web UI"
+      8082: "Web UI"
 
 services:
   nextcloud:
@@ -40,4 +40,4 @@ services:
       - /path/to/containers/nextcloud/data:/data
 
     ports:
-      - "8082:80"
+      - "8082:8082"

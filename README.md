@@ -44,7 +44,7 @@ services:
       - "/path/to/containers/nextcloud:/config"
       - "/path/to/containers/nextcloud/data:/data"
     ports:
-      - "8082:80"
+      - "8082:8082"
     # always (not unless-stopped) so FreeBSD's podman rc.d auto-starts it at boot
     restart: always
 ```
@@ -76,7 +76,7 @@ services:
     name: nextcloud
     options:
       - container: 'args:--pull'
-      - expose: '8082:80 proto:tcp'
+      - expose: '8082:8082 proto:tcp'
     oci:
       user: root
       environment:
@@ -117,7 +117,7 @@ Save the files above, then run `appjail-director up`.
 
 ```bash
 podman run -d --name nextcloud \
-  -p 8082:80 \
+  -p 8082:8082 \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=UTC \
@@ -137,7 +137,7 @@ appjail oci run -Pd \
   -o container="args:--pull" \
   -o virtualnet=":<random> default" \
   -o nat \
-  -o expose="8082:80 proto:tcp" \
+  -o expose="8082:8082 proto:tcp" \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=UTC \
@@ -201,7 +201,7 @@ bastille create -O \
       PGID: "1000"
       TZ: "UTC"
     ports:
-      - "8082:80"
+      - "8082:8082"
     volumes:
       - "/path/to/containers/nextcloud:/config"
       - "/path/to/containers/nextcloud/data:/data"
@@ -232,7 +232,7 @@ Access at: `http://localhost:8082`
 
 | Port | Protocol | Description |
 |------|----------|-------------|
-| `80` | TCP | Web UI |
+| `8082` | TCP | Web UI |
 
 **Architectures:** amd64
 **User:** `bsd` (UID/GID via PUID/PGID, defaults to 1000:1000)
