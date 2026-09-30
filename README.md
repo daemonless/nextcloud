@@ -41,8 +41,8 @@ services:
       - PGID=1000  # Group ID for the application process
       - TZ=UTC  # Timezone for the container
     volumes:
-      - "/path/to/containers/nextcloud:/config"
-      - "/path/to/containers/nextcloud/data:/data"
+      - "/containers/nextcloud:/config"
+      - "/containers/nextcloud/data:/data"
     ports:
       - "8082:8082"
     # always (not unless-stopped) so FreeBSD's podman rc.d auto-starts it at boot
@@ -88,9 +88,9 @@ services:
       - nextcloud_data: /data
 volumes:
   nextcloud:
-    device: '/path/to/containers/nextcloud'
+    device: '/containers/nextcloud'
   nextcloud_data:
-    device: '/path/to/containers/nextcloud/data'
+    device: '/containers/nextcloud/data'
 ```
 
 **Makejail**:
@@ -121,8 +121,8 @@ podman run -d --name nextcloud \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=UTC \
-  -v /path/to/containers/nextcloud:/config \
-  -v /path/to/containers/nextcloud/data:/data \
+  -v /containers/nextcloud:/config \
+  -v /containers/nextcloud/data:/data \
   ghcr.io/daemonless/nextcloud:latest
 ```
 
@@ -141,8 +141,8 @@ appjail oci run -Pd \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=UTC \
-  -o fstab="/path/to/containers/nextcloud /config <pseudofs>" \
-  -o fstab="/path/to/containers/nextcloud/data /data <pseudofs>" \
+  -o fstab="/containers/nextcloud /config <pseudofs>" \
+  -o fstab="/containers/nextcloud/data /data <pseudofs>" \
   ghcr.io/daemonless/nextcloud:latest nextcloud
 ```
 
@@ -171,8 +171,8 @@ services:
       - PGID=1000
       - TZ=UTC
     volumes:
-      - "/path/to/containers/nextcloud:/config"
-      - "/path/to/containers/nextcloud/data:/data"
+      - "/containers/nextcloud:/config"
+      - "/containers/nextcloud/data:/data"
 ```
 
 Save as `bastille-compose.yml`, then run `bastille up`. Or via CLI:
@@ -182,8 +182,8 @@ bastille create -O \
   --env PUID=1000 \
   --env PGID=1000 \
   --env TZ=UTC \
-  --volume /path/to/containers/nextcloud /config \
-  --volume /path/to/containers/nextcloud/data /data \
+  --volume /containers/nextcloud /config \
+  --volume /containers/nextcloud/data /data \
   nextcloud ghcr.io/daemonless/nextcloud:latest inherit
 ```
 
@@ -203,8 +203,8 @@ bastille create -O \
     ports:
       - "8082:8082"
     volumes:
-      - "/path/to/containers/nextcloud:/config"
-      - "/path/to/containers/nextcloud/data:/data"
+      - "/containers/nextcloud:/config"
+      - "/containers/nextcloud/data:/data"
 ```
 
 Save as `nextcloud-deploy.yaml`, then run `ansible-playbook nextcloud-deploy.yaml`.
