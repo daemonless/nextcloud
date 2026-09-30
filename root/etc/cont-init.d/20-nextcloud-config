@@ -18,8 +18,11 @@ mkdir -p /config/www /data /var/log/nextcloud /var/run/php-fpm
 
 # Symlink config directory to /config/www for persistence
 if [ -d "$NEXTCLOUD_DIR/config" ] && [ ! -L "$NEXTCLOUD_DIR/config" ]; then
-    # First run - move stock config dir contents to /config/www
-    cp -a "$NEXTCLOUD_DIR/config/"* /config/www/ 2>/dev/null || true
+    # A fresh container has the package's stock config dir again, while
+    # /config/www holds the live one. Only what is missing there is taken
+    # from the package (-n): a plain copy put the stock config.php over the
+    # real one on every recreate, and the install was gone.
+    cp -an "$NEXTCLOUD_DIR/config/"* /config/www/ 2>/dev/null || true
     rm -rf "$NEXTCLOUD_DIR/config"
     ln -sf /config/www "$NEXTCLOUD_DIR/config"
     echo "Linked $NEXTCLOUD_DIR/config -> /config/www"
