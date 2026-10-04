@@ -12,7 +12,7 @@ x-daemonless:
   mlock: false
   upstream_binary: false
   appjail: true
-  
+
   docs:
     env:
       PUID: "User ID for the application process"
@@ -29,7 +29,7 @@ services:
     image: ghcr.io/daemonless/nextcloud:latest
     container_name: nextcloud
     restart: unless-stopped
-    
+
     environment:
       - PUID=1000
       - PGID=1000
