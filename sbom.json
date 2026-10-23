@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-22T08:34:07Z",
+  "generated": "2026-10-23T17:01:55Z",
   "image": "nextcloud",
   "tags": {
     "pkg": {
       "app_version": "35.0.1",
       "arch": "amd64",
-      "generated": "2026-10-22T08:32:27Z",
+      "generated": "2026-10-23T17:00:20Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -195,13 +195,6 @@
             "licenses": [
               "BSD2CLAUSE"
             ],
-            "name": "FreeBSD-rc",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
             "name": "FreeBSD-resolvconf",
             "version": "15.1"
           },
@@ -346,7 +339,7 @@
               "CUPS"
             ],
             "name": "cups",
-            "version": "2.4.19_2"
+            "version": "2.4.20"
           },
           {
             "licenses": [
@@ -382,13 +375,6 @@
             ],
             "name": "dbus-glib",
             "version": "0.116"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "execline",
-            "version": "2.9.8.1"
           },
           {
             "licenses": [
@@ -629,7 +615,7 @@
               "MIT"
             ],
             "name": "libX11",
-            "version": "1.8.13_1,1"
+            "version": "1.8.14,1"
           },
           {
             "licenses": [
@@ -692,7 +678,7 @@
               "MIT"
             ],
             "name": "libXi",
-            "version": "1.8.3,1"
+            "version": "1.8.4,1"
           },
           {
             "licenses": [
@@ -706,7 +692,7 @@
               "MIT"
             ],
             "name": "libXrender",
-            "version": "0.9.12"
+            "version": "0.9.13"
           },
           {
             "licenses": [
@@ -1136,7 +1122,7 @@
               "BSD3CLAUSE"
             ],
             "name": "libzip",
-            "version": "1.11.4"
+            "version": "1.12.1"
           },
           {
             "licenses": [
@@ -1226,7 +1212,7 @@
               "BSD2CLAUSE"
             ],
             "name": "nginx",
-            "version": "1.30.5_2,3"
+            "version": "1.30.6,3"
           },
           {
             "licenses": [
@@ -1647,13 +1633,6 @@
           },
           {
             "licenses": [
-              "ISCL"
-            ],
-            "name": "s6",
-            "version": "2.14.0.1"
-          },
-          {
-            "licenses": [
               "ZLIB"
             ],
             "name": "sdl2",
@@ -1672,13 +1651,6 @@
             ],
             "name": "shared-mime-info",
             "version": "2.4_2"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "skalibs",
-            "version": "2.14.5.1"
           },
           {
             "licenses": [
@@ -1904,7 +1876,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 250,
+        "freebsd": 246,
         "go": 0,
         "java": 0,
         "node": 16,
@@ -1912,13 +1884,13 @@
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 269
+        "total": 265
       }
     },
     "pkg-latest": {
       "app_version": "35.0.1",
       "arch": "amd64",
-      "generated": "2026-10-22T07:48:50Z",
+      "generated": "2026-10-23T16:57:45Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2108,13 +2080,6 @@
             "licenses": [
               "BSD2CLAUSE"
             ],
-            "name": "FreeBSD-rc",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
             "name": "FreeBSD-resolvconf",
             "version": "15.1"
           },
@@ -2295,13 +2260,6 @@
             ],
             "name": "dbus-glib",
             "version": "0.116"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "execline",
-            "version": "2.9.8.1"
           },
           {
             "licenses": [
@@ -3139,7 +3097,7 @@
               "BSD2CLAUSE"
             ],
             "name": "nginx",
-            "version": "1.30.6_1,3"
+            "version": "1.30.6_3,3"
           },
           {
             "licenses": [
@@ -3560,13 +3518,6 @@
           },
           {
             "licenses": [
-              "ISCL"
-            ],
-            "name": "s6",
-            "version": "2.14.0.1"
-          },
-          {
-            "licenses": [
               "ZLIB"
             ],
             "name": "sdl2",
@@ -3585,13 +3536,6 @@
             ],
             "name": "shared-mime-info",
             "version": "2.4_2"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "skalibs",
-            "version": "2.14.5.1"
           },
           {
             "licenses": [
@@ -3817,7 +3761,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 250,
+        "freebsd": 246,
         "go": 0,
         "java": 0,
         "node": 16,
@@ -3825,7 +3769,7 @@
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 269
+        "total": 265
       }
     }
   }
