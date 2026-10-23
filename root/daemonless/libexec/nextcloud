@@ -1,0 +1,8 @@
+#!/bin/sh
+# Nextcloud Cron rcd unit
+
+# Run cron every 5 minutes
+while true; do
+    dsu bsd /usr/local/bin/php -f /usr/local/www/nextcloud/cron.php
+    sleep 300
+done

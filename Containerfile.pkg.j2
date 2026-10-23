@@ -61,9 +61,7 @@ RUN mkdir -p /config/www /data /var/log/nextcloud && \
 
 # Copy configuration and service scripts
 COPY root/ /
-
-# Make scripts executable
-RUN chmod +x /etc/cont-init.d/* /etc/services.d/*/run 2>/dev/null || true
+RUN chmod +x /daemonless/libexec/* /daemonless/init.d/*
 
 # --- Expose (Injected by Generator) ---
 {%- if ports %}
