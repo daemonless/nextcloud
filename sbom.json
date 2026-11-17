@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-04T16:56:32Z",
+  "generated": "2026-11-17T23:39:49Z",
   "image": "nextcloud",
   "tags": {
     "pkg": {
@@ -1888,9 +1888,9 @@
       }
     },
     "pkg-latest": {
-      "app_version": "35.0.2",
+      "app_version": "35.0.3",
       "arch": "amd64",
-      "generated": "2026-11-04T16:54:09Z",
+      "generated": "2026-11-17T23:37:52Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2165,7 +2165,7 @@
               "BSD2CLAUSE"
             ],
             "name": "aom",
-            "version": "3.15.2"
+            "version": "3.15.3"
           },
           {
             "licenses": [
@@ -2183,11 +2183,11 @@
           },
           {
             "licenses": [
-              "LGPL3",
-              "GPLv3"
+              "GPLv3",
+              "LGPL3"
             ],
             "name": "binutils",
-            "version": "2.44,1"
+            "version": "2.44_1,1"
           },
           {
             "licenses": [
@@ -2252,7 +2252,7 @@
               "GPLv2"
             ],
             "name": "dbus",
-            "version": "1.16.2_4,1"
+            "version": "1.16.4,1"
           },
           {
             "licenses": [
@@ -2266,12 +2266,12 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.9.0"
+            "version": "2.10.0"
           },
           {
             "licenses": [
-              "GPLv3+",
-              "LGPL3+"
+              "LGPL3+",
+              "GPLv3+"
             ],
             "name": "ffmpeg",
             "version": "9.0.2_3,1"
@@ -2329,8 +2329,8 @@
           },
           {
             "licenses": [
-              "GPLv3+",
-              "LGPL21+"
+              "LGPL21+",
+              "GPLv3+"
             ],
             "name": "gettext-runtime",
             "version": "1.0_1"
@@ -2372,8 +2372,8 @@
           },
           {
             "licenses": [
-              "GPLv3+",
-              "LGPL21+"
+              "LGPL21+",
+              "GPLv3+"
             ],
             "name": "gnutls",
             "version": "3.8.13"
@@ -2414,7 +2414,7 @@
               "GPLv2+"
             ],
             "name": "hwdata",
-            "version": "0.412,1"
+            "version": "0.413,1"
           },
           {
             "licenses": [
@@ -2451,7 +2451,7 @@
               "ZLIB"
             ],
             "name": "jpeg-turbo",
-            "version": "3.1.4.1"
+            "version": "3.2.1"
           },
           {
             "licenses": [
@@ -2472,14 +2472,14 @@
               "MIT"
             ],
             "name": "lcms2",
-            "version": "2.19.1"
+            "version": "2.20"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "lerc",
-            "version": "4.2.0"
+            "version": "4.3.0"
           },
           {
             "licenses": [
@@ -2734,7 +2734,7 @@
               "LGPL3+"
             ],
             "name": "libheif",
-            "version": "1.23.6"
+            "version": "1.23.6_1"
           },
           {
             "licenses": [
@@ -2763,7 +2763,7 @@
               "BSD3CLAUSE"
             ],
             "name": "libjxl",
-            "version": "0.12.0"
+            "version": "0.12.0_1"
           },
           {
             "licenses": [
@@ -2785,14 +2785,14 @@
               "GPLv2"
             ],
             "name": "liblz4",
-            "version": "1.10.0_2,1"
+            "version": "1.11.1,1"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "libnghttp2",
-            "version": "1.70.0"
+            "version": "1.71.0"
           },
           {
             "licenses": [
@@ -2842,7 +2842,7 @@
               "CDDL"
             ],
             "name": "libraw",
-            "version": "0.22.2"
+            "version": "0.22.3"
           },
           {
             "licenses": [
@@ -2904,8 +2904,8 @@
           {
             "licenses": [
               "GPLv2",
-              "LGPL3+",
-              "GFDL"
+              "GFDL",
+              "LGPL3+"
             ],
             "name": "libunistring",
             "version": "1.4.2"
@@ -2958,7 +2958,7 @@
               "GPLv2+"
             ],
             "name": "libwmf",
-            "version": "0.2.16"
+            "version": "0.2.17"
           },
           {
             "licenses": [
@@ -3019,7 +3019,7 @@
               "REGEX"
             ],
             "name": "llvm19",
-            "version": "19.1.7_4"
+            "version": "19.1.7_5"
           },
           {
             "licenses": [
@@ -3090,14 +3090,14 @@
               "AGPLv3"
             ],
             "name": "nextcloud-php85",
-            "version": "35.0.2"
+            "version": "35.0.3"
           },
           {
             "licenses": [
               "BSD2CLAUSE"
             ],
             "name": "nginx",
-            "version": "1.30.6_10,3"
+            "version": "1.30.6_13,3"
           },
           {
             "licenses": [
@@ -3118,7 +3118,7 @@
               "BSD3CLAUSE"
             ],
             "name": "openexr",
-            "version": "3.4.16"
+            "version": "3.4.18_1"
           },
           {
             "licenses": [
@@ -3139,7 +3139,7 @@
               "BSD2CLAUSE"
             ],
             "name": "openjph",
-            "version": "0.32.0"
+            "version": "0.33.0"
           },
           {
             "licenses": [
@@ -3160,7 +3160,7 @@
               "BSD3CLAUSE"
             ],
             "name": "p11-kit",
-            "version": "0.26.5_1"
+            "version": "0.26.6"
           },
           {
             "licenses": [
@@ -3448,7 +3448,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.4"
+            "version": "2.9.2"
           },
           {
             "licenses": [
@@ -3478,7 +3478,7 @@
               "PostgreSQL"
             ],
             "name": "postgresql18-client",
-            "version": "18.6"
+            "version": "18.7"
           },
           {
             "licenses": [
@@ -3507,7 +3507,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.15"
+            "version": "3.12.16"
           },
           {
             "licenses": [
@@ -3542,7 +3542,7 @@
               "NCSA"
             ],
             "name": "spirv-llvm-translator-llvm19",
-            "version": "19.1.23"
+            "version": "19.1.24"
           },
           {
             "licenses": [
@@ -3572,7 +3572,7 @@
               "BSD3CLAUSE"
             ],
             "name": "svt-av1",
-            "version": "4.2.0"
+            "version": "4.3.0"
           },
           {
             "licenses": [
@@ -3600,7 +3600,7 @@
               "APACHE20"
             ],
             "name": "vulkan-loader",
-            "version": "1.4.365"
+            "version": "1.4.368"
           },
           {
             "licenses": [
