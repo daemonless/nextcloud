@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-17T23:39:49Z",
+  "generated": "2026-11-19T08:52:08Z",
   "image": "nextcloud",
   "tags": {
     "pkg": {
       "app_version": "35.0.1",
       "arch": "amd64",
-      "generated": "2026-11-04T16:54:18Z",
+      "generated": "2026-11-19T08:50:08Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -280,7 +280,7 @@
               "BSD2CLAUSE"
             ],
             "name": "aom",
-            "version": "3.15.2"
+            "version": "3.15.3"
           },
           {
             "licenses": [
@@ -298,8 +298,8 @@
           },
           {
             "licenses": [
-              "LGPL3",
-              "GPLv3"
+              "GPLv3",
+              "LGPL3"
             ],
             "name": "binutils",
             "version": "2.44,1"
@@ -367,7 +367,7 @@
               "GPLv2"
             ],
             "name": "dbus",
-            "version": "1.16.2_4,1"
+            "version": "1.16.4,1"
           },
           {
             "licenses": [
@@ -385,8 +385,8 @@
           },
           {
             "licenses": [
-              "GPLv3+",
-              "LGPL3+"
+              "LGPL3+",
+              "GPLv3+"
             ],
             "name": "ffmpeg",
             "version": "9.0.2,1"
@@ -444,8 +444,8 @@
           },
           {
             "licenses": [
-              "GPLv3+",
-              "LGPL21+"
+              "LGPL21+",
+              "GPLv3+"
             ],
             "name": "gettext-runtime",
             "version": "1.0_1"
@@ -487,8 +487,8 @@
           },
           {
             "licenses": [
-              "GPLv3+",
-              "LGPL21+"
+              "LGPL21+",
+              "GPLv3+"
             ],
             "name": "gnutls",
             "version": "3.8.13"
@@ -878,7 +878,7 @@
               "BSD3CLAUSE"
             ],
             "name": "libjxl",
-            "version": "0.12.0"
+            "version": "0.12.0_1"
           },
           {
             "licenses": [
@@ -1019,8 +1019,8 @@
           {
             "licenses": [
               "GPLv2",
-              "LGPL3+",
-              "GFDL"
+              "GFDL",
+              "LGPL3+"
             ],
             "name": "libunistring",
             "version": "1.4.2"
@@ -1233,7 +1233,7 @@
               "BSD3CLAUSE"
             ],
             "name": "openexr",
-            "version": "3.4.16"
+            "version": "3.4.18"
           },
           {
             "licenses": [
@@ -1563,7 +1563,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.4"
+            "version": "2.9.2"
           },
           {
             "licenses": [
@@ -1622,7 +1622,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.15"
+            "version": "3.12.16"
           },
           {
             "licenses": [
